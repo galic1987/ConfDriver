@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ConfDriverTests' target in the 'ConfDriverTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

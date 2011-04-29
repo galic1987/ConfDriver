@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B122B0A136A4130000E9A6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B122B09136A4130000E9A6A /* UIKit.framework */; };
+		4B122B0C136A4130000E9A6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B122B0B136A4130000E9A6A /* Foundation.framework */; };
+		4B122B0E136A4130000E9A6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B122B0D136A4130000E9A6A /* CoreGraphics.framework */; };
+		4B122B14136A4131000E9A6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B122B12136A4131000E9A6A /* InfoPlist.strings */; };
+		4B122B17136A4131000E9A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B122B16136A4131000E9A6A /* main.m */; };
+		4B122B1A136A4131000E9A6A /* ConfDriverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B122B19136A4131000E9A6A /* ConfDriverAppDelegate.m */; };
+		4B122B1D136A4131000E9A6A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B122B1B136A4131000E9A6A /* MainWindow.xib */; };
+		4B122B20136A4131000E9A6A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B122B1F136A4131000E9A6A /* FirstViewController.m */; };
+		4B122B23136A4131000E9A6A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B122B22136A4131000E9A6A /* SecondViewController.m */; };
+		4B122B26136A4131000E9A6A /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B122B24136A4131000E9A6A /* FirstView.xib */; };
+		4B122B29136A4131000E9A6A /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B122B27136A4131000E9A6A /* SecondView.xib */; };
+		4B122B30136A4131000E9A6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B122B09136A4130000E9A6A /* UIKit.framework */; };
+		4B122B31136A4131000E9A6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B122B0B136A4130000E9A6A /* Foundation.framework */; };
+		4B122B32136A4131000E9A6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B122B0D136A4130000E9A6A /* CoreGraphics.framework */; };
+		4B122B3A136A4131000E9A6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B122B38136A4131000E9A6A /* InfoPlist.strings */; };
+		4B122B3D136A4131000E9A6A /* ConfDriverTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4B122B3C136A4131000E9A6A /* ConfDriverTests.h */; };
+		4B122B3F136A4131000E9A6A /* ConfDriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B122B3E136A4131000E9A6A /* ConfDriverTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B122B33136A4131000E9A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B122AFC136A4130000E9A6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B122B04136A4130000E9A6A;
+			remoteInfo = ConfDriver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B122B05136A4130000E9A6A /* ConfDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B122B09136A4130000E9A6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B122B0B136A4130000E9A6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B122B0D136A4130000E9A6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B122B11136A4131000E9A6A /* ConfDriver-Info.plist */ = {isa = PBXFileReference; path = "ConfDriver-Info.plist"; sourceTree = "<group>"; };
+		4B122B13136A4131000E9A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B122B15136A4131000E9A6A /* ConfDriver-Prefix.pch */ = {isa = PBXFileReference; path = "ConfDriver-Prefix.pch"; sourceTree = "<group>"; };
+		4B122B16136A4131000E9A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B122B18136A4131000E9A6A /* ConfDriverAppDelegate.h */ = {isa = PBXFileReference; path = ConfDriverAppDelegate.h; sourceTree = "<group>"; };
+		4B122B19136A4131000E9A6A /* ConfDriverAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfDriverAppDelegate.m; sourceTree = "<group>"; };
+		4B122B1C136A4131000E9A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4B122B1E136A4131000E9A6A /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		4B122B1F136A4131000E9A6A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4B122B21136A4131000E9A6A /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		4B122B22136A4131000E9A6A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4B122B25136A4131000E9A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		4B122B28136A4131000E9A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		4B122B2F136A4131000E9A6A /* ConfDriverTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfDriverTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B122B37136A4131000E9A6A /* ConfDriverTests-Info.plist */ = {isa = PBXFileReference; path = "ConfDriverTests-Info.plist"; sourceTree = "<group>"; };
+		4B122B39136A4131000E9A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B122B3B136A4131000E9A6A /* ConfDriverTests-Prefix.pch */ = {isa = PBXFileReference; path = "ConfDriverTests-Prefix.pch"; sourceTree = "<group>"; };
+		4B122B3C136A4131000E9A6A /* ConfDriverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfDriverTests.h; sourceTree = "<group>"; };
+		4B122B3E136A4131000E9A6A /* ConfDriverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfDriverTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B122B02136A4130000E9A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B122B0A136A4130000E9A6A /* UIKit.framework in Frameworks */,
+				4B122B0C136A4130000E9A6A /* Foundation.framework in Frameworks */,
+				4B122B0E136A4130000E9A6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B122B2B136A4131000E9A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B122B30136A4131000E9A6A /* UIKit.framework in Frameworks */,
+				4B122B31136A4131000E9A6A /* Foundation.framework in Frameworks */,
+				4B122B32136A4131000E9A6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B122AFA136A4130000E9A6A = {
+			isa = PBXGroup;
+			children = (
+				4B122B0F136A4131000E9A6A /* ConfDriver */,
+				4B122B35136A4131000E9A6A /* ConfDriverTests */,
+				4B122B08136A4130000E9A6A /* Frameworks */,
+				4B122B06136A4130000E9A6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B122B06136A4130000E9A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B122B05136A4130000E9A6A /* ConfDriver.app */,
+				4B122B2F136A4131000E9A6A /* ConfDriverTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B122B08136A4130000E9A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B122B09136A4130000E9A6A /* UIKit.framework */,
+				4B122B0B136A4130000E9A6A /* Foundation.framework */,
+				4B122B0D136A4130000E9A6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B122B0F136A4131000E9A6A /* ConfDriver */ = {
+			isa = PBXGroup;
+			children = (
+				4B122B18136A4131000E9A6A /* ConfDriverAppDelegate.h */,
+				4B122B19136A4131000E9A6A /* ConfDriverAppDelegate.m */,
+				4B122B1B136A4131000E9A6A /* MainWindow.xib */,
+				4B122B1E136A4131000E9A6A /* FirstViewController.h */,
+				4B122B1F136A4131000E9A6A /* FirstViewController.m */,
+				4B122B21136A4131000E9A6A /* SecondViewController.h */,
+				4B122B22136A4131000E9A6A /* SecondViewController.m */,
+				4B122B24136A4131000E9A6A /* FirstView.xib */,
+				4B122B27136A4131000E9A6A /* SecondView.xib */,
+				4B122B10136A4131000E9A6A /* Supporting Files */,
+			);
+			path = ConfDriver;
+			sourceTree = "<group>";
+		};
+		4B122B10136A4131000E9A6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B122B11136A4131000E9A6A /* ConfDriver-Info.plist */,
+				4B122B12136A4131000E9A6A /* InfoPlist.strings */,
+				4B122B15136A4131000E9A6A /* ConfDriver-Prefix.pch */,
+				4B122B16136A4131000E9A6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B122B35136A4131000E9A6A /* ConfDriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B122B3C136A4131000E9A6A /* ConfDriverTests.h */,
+				4B122B3E136A4131000E9A6A /* ConfDriverTests.m */,
+				4B122B36136A4131000E9A6A /* Supporting Files */,
+			);
+			path = ConfDriverTests;
+			sourceTree = "<group>";
+		};
+		4B122B36136A4131000E9A6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B122B37136A4131000E9A6A /* ConfDriverTests-Info.plist */,
+				4B122B38136A4131000E9A6A /* InfoPlist.strings */,
+				4B122B3B136A4131000E9A6A /* ConfDriverTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B122B04136A4130000E9A6A /* ConfDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B122B42136A4131000E9A6A /* Build configuration list for PBXNativeTarget "ConfDriver" */;
+			buildPhases = (
+				4B122B01136A4130000E9A6A /* Sources */,
+				4B122B02136A4130000E9A6A /* Frameworks */,
+				4B122B03136A4130000E9A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConfDriver;
+			productName = ConfDriver;
+			productReference = 4B122B05136A4130000E9A6A /* ConfDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B122B2E136A4131000E9A6A /* ConfDriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B122B45136A4131000E9A6A /* Build configuration list for PBXNativeTarget "ConfDriverTests" */;
+			buildPhases = (
+				4B122B2A136A4131000E9A6A /* Sources */,
+				4B122B2B136A4131000E9A6A /* Frameworks */,
+				4B122B2C136A4131000E9A6A /* Resources */,
+				4B122B2D136A4131000E9A6A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B122B34136A4131000E9A6A /* PBXTargetDependency */,
+			);
+			name = ConfDriverTests;
+			productName = ConfDriverTests;
+			productReference = 4B122B2F136A4131000E9A6A /* ConfDriverTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B122AFC136A4130000E9A6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Galic Design";
+			};
+			buildConfigurationList = 4B122AFF136A4130000E9A6A /* Build configuration list for PBXProject "ConfDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B122AFA136A4130000E9A6A;
+			productRefGroup = 4B122B06136A4130000E9A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B122B04136A4130000E9A6A /* ConfDriver */,
+				4B122B2E136A4131000E9A6A /* ConfDriverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B122B03136A4130000E9A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B122B14136A4131000E9A6A /* InfoPlist.strings in Resources */,
+				4B122B1D136A4131000E9A6A /* MainWindow.xib in Resources */,
+				4B122B26136A4131000E9A6A /* FirstView.xib in Resources */,
+				4B122B29136A4131000E9A6A /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B122B2C136A4131000E9A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B122B3A136A4131000E9A6A /* InfoPlist.strings in Resources */,
+				4B122B3D136A4131000E9A6A /* ConfDriverTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B122B2D136A4131000E9A6A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B122B01136A4130000E9A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B122B17136A4131000E9A6A /* main.m in Sources */,
+				4B122B1A136A4131000E9A6A /* ConfDriverAppDelegate.m in Sources */,
+				4B122B20136A4131000E9A6A /* FirstViewController.m in Sources */,
+				4B122B23136A4131000E9A6A /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B122B2A136A4131000E9A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B122B3F136A4131000E9A6A /* ConfDriverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B122B34136A4131000E9A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B122B04136A4130000E9A6A /* ConfDriver */;
+			targetProxy = 4B122B33136A4131000E9A6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B122B12136A4131000E9A6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B122B13136A4131000E9A6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B122B1B136A4131000E9A6A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B122B1C136A4131000E9A6A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4B122B24136A4131000E9A6A /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B122B25136A4131000E9A6A /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		4B122B27136A4131000E9A6A /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B122B28136A4131000E9A6A /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		4B122B38136A4131000E9A6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B122B39136A4131000E9A6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B122B40136A4131000E9A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B122B41136A4131000E9A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4B122B43136A4131000E9A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConfDriver/ConfDriver-Prefix.pch";
+				INFOPLIST_FILE = "ConfDriver/ConfDriver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B122B44136A4131000E9A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConfDriver/ConfDriver-Prefix.pch";
+				INFOPLIST_FILE = "ConfDriver/ConfDriver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4B122B46136A4131000E9A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConfDriver.app/ConfDriver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConfDriverTests/ConfDriverTests-Prefix.pch";
+				INFOPLIST_FILE = "ConfDriverTests/ConfDriverTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4B122B47136A4131000E9A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConfDriver.app/ConfDriver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConfDriverTests/ConfDriverTests-Prefix.pch";
+				INFOPLIST_FILE = "ConfDriverTests/ConfDriverTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B122AFF136A4130000E9A6A /* Build configuration list for PBXProject "ConfDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B122B40136A4131000E9A6A /* Debug */,
+				4B122B41136A4131000E9A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B122B42136A4131000E9A6A /* Build configuration list for PBXNativeTarget "ConfDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B122B43136A4131000E9A6A /* Debug */,
+				4B122B44136A4131000E9A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B122B45136A4131000E9A6A /* Build configuration list for PBXNativeTarget "ConfDriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B122B46136A4131000E9A6A /* Debug */,
+				4B122B47136A4131000E9A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B122AFC136A4130000E9A6A /* Project object */;
+}
