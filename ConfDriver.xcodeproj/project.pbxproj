@@ -32,6 +32,20 @@
 		4BA944601389EE1A00DA3B54 /* StartUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA9445E1389EE1A00DA3B54 /* StartUIViewController.m */; };
 		4BA94463138AC91100DA3B54 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA94462138AC91100DA3B54 /* LoginView.xib */; };
 		4BA94464138AC91100DA3B54 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA94462138AC91100DA3B54 /* LoginView.xib */; };
+		4BD61DD2138B201E005B10CA /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DBF138B201E005B10CA /* ASIAuthenticationDialog.m */; };
+		4BD61DD3138B201E005B10CA /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DC2138B201E005B10CA /* ASIDataCompressor.m */; };
+		4BD61DD4138B201E005B10CA /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DC4138B201E005B10CA /* ASIDataDecompressor.m */; };
+		4BD61DD5138B201E005B10CA /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DC6138B201E005B10CA /* ASIDownloadCache.m */; };
+		4BD61DD6138B201E005B10CA /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DC8138B201E005B10CA /* ASIFormDataRequest.m */; };
+		4BD61DD7138B201E005B10CA /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DCA138B201E005B10CA /* ASIHTTPRequest.m */; };
+		4BD61DD8138B201E005B10CA /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DCE138B201E005B10CA /* ASIInputStream.m */; };
+		4BD61DD9138B201E005B10CA /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DD0138B201E005B10CA /* ASINetworkQueue.m */; };
+		4BD61DDD138B2077005B10CA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DDC138B2077005B10CA /* Reachability.m */; };
+		4BD61DDF138B2264005B10CA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD61DDE138B2264005B10CA /* CFNetwork.framework */; };
+		4BD61DE1138B2276005B10CA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD61DE0138B2276005B10CA /* SystemConfiguration.framework */; };
+		4BD61DE3138B2287005B10CA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD61DE2138B2287005B10CA /* MobileCoreServices.framework */; };
+		4BD61DE6138B22AB005B10CA /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD61DE5138B22AB005B10CA /* libz.1.2.3.dylib */; };
+		4BD61DE9138B26C6005B10CA /* LauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DE8138B26C6005B10CA /* LauncherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -222,6 +236,35 @@
 		4BA9445E1389EE1A00DA3B54 /* StartUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartUIViewController.m; sourceTree = "<group>"; };
 		4BA94462138AC91100DA3B54 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		4BA94466138AD53C00DA3B54 /* LoginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginProtocol.h; sourceTree = "<group>"; };
+		4BD61DBE138B201E005B10CA /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		4BD61DBF138B201E005B10CA /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		4BD61DC0138B201E005B10CA /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		4BD61DC1138B201E005B10CA /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		4BD61DC2138B201E005B10CA /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		4BD61DC3138B201E005B10CA /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		4BD61DC4138B201E005B10CA /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		4BD61DC5138B201E005B10CA /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		4BD61DC6138B201E005B10CA /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		4BD61DC7138B201E005B10CA /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		4BD61DC8138B201E005B10CA /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		4BD61DC9138B201E005B10CA /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		4BD61DCA138B201E005B10CA /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		4BD61DCB138B201E005B10CA /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		4BD61DCC138B201E005B10CA /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		4BD61DCD138B201E005B10CA /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		4BD61DCE138B201E005B10CA /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		4BD61DCF138B201E005B10CA /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		4BD61DD0138B201E005B10CA /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		4BD61DD1138B201E005B10CA /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		4BD61DDB138B2077005B10CA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4BD61DDC138B2077005B10CA /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4BD61DDE138B2264005B10CA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4BD61DE0138B2276005B10CA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4BD61DE2138B2287005B10CA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4BD61DE4138B229A005B10CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4BD61DE5138B22AB005B10CA /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		4BD61DE7138B26C6005B10CA /* LauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherViewController.h; sourceTree = "<group>"; };
+		4BD61DE8138B26C6005B10CA /* LauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +272,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD61DE6138B22AB005B10CA /* libz.1.2.3.dylib in Frameworks */,
+				4B122B0E136A4130000E9A6A /* CoreGraphics.framework in Frameworks */,
+				4BD61DE3138B2287005B10CA /* MobileCoreServices.framework in Frameworks */,
+				4BD61DE1138B2276005B10CA /* SystemConfiguration.framework in Frameworks */,
+				4BD61DDF138B2264005B10CA /* CFNetwork.framework in Frameworks */,
 				3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */,
 				320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */,
 				320A737074758E53BA54BE95 /* libThree20UINavigator.a in Frameworks */,
@@ -239,7 +287,6 @@
 				320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */,
 				4B122B0A136A4130000E9A6A /* UIKit.framework in Frameworks */,
 				4B122B0C136A4130000E9A6A /* Foundation.framework in Frameworks */,
-				4B122B0E136A4130000E9A6A /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +388,11 @@
 		4B122B08136A4130000E9A6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4BD61DE5138B22AB005B10CA /* libz.1.2.3.dylib */,
+				4BD61DE4138B229A005B10CA /* CoreGraphics.framework */,
+				4BD61DE2138B2287005B10CA /* MobileCoreServices.framework */,
+				4BD61DE0138B2276005B10CA /* SystemConfiguration.framework */,
+				4BD61DDE138B2264005B10CA /* CFNetwork.framework */,
 				3201088596B4756681693700 /* Three20UICommon.xcodeproj */,
 				320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */,
 				320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */,
@@ -359,12 +411,15 @@
 		4B122B0F136A4131000E9A6A /* ConfDriver */ = {
 			isa = PBXGroup;
 			children = (
+				4BD61DBD138B1FDC005B10CA /* Network */,
 				4BA9448B138ADA0F00DA3B54 /* Xib */,
 				4BA94465138AD4C200DA3B54 /* DelegateProtocols */,
 				4B122B18136A4131000E9A6A /* ConfDriverAppDelegate.h */,
 				4B122B19136A4131000E9A6A /* ConfDriverAppDelegate.m */,
 				4BA9445D1389EE1A00DA3B54 /* StartUIViewController.h */,
 				4BA9445E1389EE1A00DA3B54 /* StartUIViewController.m */,
+				4BD61DE7138B26C6005B10CA /* LauncherViewController.h */,
+				4BD61DE8138B26C6005B10CA /* LauncherViewController.m */,
 				4B122B10136A4131000E9A6A /* Supporting Files */,
 			);
 			path = ConfDriver;
@@ -417,6 +472,43 @@
 				4B122B1B136A4131000E9A6A /* MainWindow.xib */,
 			);
 			name = Xib;
+			sourceTree = "<group>";
+		};
+		4BD61DBD138B1FDC005B10CA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4BD61DDA138B205C005B10CA /* External */,
+				4BD61DBE138B201E005B10CA /* ASIAuthenticationDialog.h */,
+				4BD61DBF138B201E005B10CA /* ASIAuthenticationDialog.m */,
+				4BD61DC0138B201E005B10CA /* ASICacheDelegate.h */,
+				4BD61DC1138B201E005B10CA /* ASIDataCompressor.h */,
+				4BD61DC2138B201E005B10CA /* ASIDataCompressor.m */,
+				4BD61DC3138B201E005B10CA /* ASIDataDecompressor.h */,
+				4BD61DC4138B201E005B10CA /* ASIDataDecompressor.m */,
+				4BD61DC5138B201E005B10CA /* ASIDownloadCache.h */,
+				4BD61DC6138B201E005B10CA /* ASIDownloadCache.m */,
+				4BD61DC7138B201E005B10CA /* ASIFormDataRequest.h */,
+				4BD61DC8138B201E005B10CA /* ASIFormDataRequest.m */,
+				4BD61DC9138B201E005B10CA /* ASIHTTPRequest.h */,
+				4BD61DCA138B201E005B10CA /* ASIHTTPRequest.m */,
+				4BD61DCB138B201E005B10CA /* ASIHTTPRequestConfig.h */,
+				4BD61DCC138B201E005B10CA /* ASIHTTPRequestDelegate.h */,
+				4BD61DCD138B201E005B10CA /* ASIInputStream.h */,
+				4BD61DCE138B201E005B10CA /* ASIInputStream.m */,
+				4BD61DCF138B201E005B10CA /* ASINetworkQueue.h */,
+				4BD61DD0138B201E005B10CA /* ASINetworkQueue.m */,
+				4BD61DD1138B201E005B10CA /* ASIProgressDelegate.h */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		4BD61DDA138B205C005B10CA /* External */ = {
+			isa = PBXGroup;
+			children = (
+				4BD61DDB138B2077005B10CA /* Reachability.h */,
+				4BD61DDC138B2077005B10CA /* Reachability.m */,
+			);
+			name = External;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -670,6 +762,16 @@
 				4B122B17136A4131000E9A6A /* main.m in Sources */,
 				4B122B1A136A4131000E9A6A /* ConfDriverAppDelegate.m in Sources */,
 				4BA944601389EE1A00DA3B54 /* StartUIViewController.m in Sources */,
+				4BD61DD2138B201E005B10CA /* ASIAuthenticationDialog.m in Sources */,
+				4BD61DD3138B201E005B10CA /* ASIDataCompressor.m in Sources */,
+				4BD61DD4138B201E005B10CA /* ASIDataDecompressor.m in Sources */,
+				4BD61DD5138B201E005B10CA /* ASIDownloadCache.m in Sources */,
+				4BD61DD6138B201E005B10CA /* ASIFormDataRequest.m in Sources */,
+				4BD61DD7138B201E005B10CA /* ASIHTTPRequest.m in Sources */,
+				4BD61DD8138B201E005B10CA /* ASIInputStream.m in Sources */,
+				4BD61DD9138B201E005B10CA /* ASINetworkQueue.m in Sources */,
+				4BD61DDD138B2077005B10CA /* Reachability.m in Sources */,
+				4BD61DE9138B26C6005B10CA /* LauncherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -807,6 +909,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConfDriver/ConfDriver-Prefix.pch";
 				INFOPLIST_FILE = "ConfDriver/ConfDriver-Info.plist";
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -820,6 +923,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConfDriver/ConfDriver-Prefix.pch";
 				INFOPLIST_FILE = "ConfDriver/ConfDriver-Info.plist";
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
