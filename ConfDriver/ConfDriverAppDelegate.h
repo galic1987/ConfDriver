@@ -7,13 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StartUIViewController.h"
+#import "LoginProtocol.h"
 
-@interface ConfDriverAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
+
+@interface ConfDriverAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate,LoginProtocol> {
 
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+
+@property (nonatomic, retain) IBOutlet  StartUIViewController * startView;
 
 @end

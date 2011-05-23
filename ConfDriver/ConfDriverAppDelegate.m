@@ -10,17 +10,41 @@
 
 @implementation ConfDriverAppDelegate
 
-
 @synthesize window=_window;
+@synthesize startView;
 
-@synthesize tabBarController=_tabBarController;
+
+-(void)login:(NSString *)cmd sender:(id)sender message:(NSString *)msg{
+    // login success -> switch to launcher
+    XLog();
+}
+
+-(void)expired:(NSString *)cmd sender:(id)sender message:(NSString *)msg{
+    //session expired
+    XLog();
+}
+
+-(void)logout:(NSString *)cmd sender:(id)sender message:(NSString *)msg{
+    //logout
+    XLog();
+}
+
+
+
+
+
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     // Add the tab bar controller's current view as a subview of the window
-    self.window.rootViewController = self.tabBarController;
-    [self.window makeKeyAndVisible];
+    //self.window.rootViewController = self.tabBarController;
+    startView = [[StartUIViewController alloc] initWithNibName:@"LoginView" bundle:[NSBundle mainBundle]];
+    startView.delegate = self;
+    
+    [_window addSubview:[startView view]];
+    [_window makeKeyAndVisible];
     return YES;
 }
 
@@ -66,7 +90,6 @@
 - (void)dealloc
 {
     [_window release];
-    [_tabBarController release];
     [super dealloc];
 }
 
