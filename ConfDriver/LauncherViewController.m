@@ -123,8 +123,8 @@
     TTLauncherItem* item = [launcherView itemWithURL:@"http://google.at"];
     item.badgeNumber = 4;
     
-    TTLauncherItem* item2 = [launcherView itemWithURL:@"http://google.de"];
-    item2.badgeNumber = 2;
+    item = [launcherView itemWithURL:@"http://google.de"];
+    item.badgeNumber = 2;
     
 //    item = [launcherView itemWithURL:@"http://google.com"];
 //    item.badgeNumber = 31;
