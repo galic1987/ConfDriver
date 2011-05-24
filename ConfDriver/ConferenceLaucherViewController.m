@@ -1,20 +1,21 @@
 //
-//  LauncherViewController.m
+//  ConferenceLaucherViewController.m
 //  ConfDriver
 //
 //  Created by Ivo Galic on 5/24/11.
 //  Copyright 2011 Galic Design. All rights reserved.
 //
 
-#import "LauncherViewController.h"
+#import "ConferenceLaucherViewController.h"
 
-@implementation LauncherViewController
+
+@implementation ConferenceLaucherViewController
 
 // standard initialization
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        //self.title = @"Launcher";
+        self.title = @"Launcher";
     }
     
     return self;
@@ -36,7 +37,7 @@
     launcherView.delegate = self;
     // how many columns
     launcherView.columnCount = 3;
-    self.title = @"ConfDriver Home";
+    self.title = @"Launcher";
     
     navigator = [TTNavigator navigator]; // create the navigator
     navigator.supportsShakeToReload = YES; // if you shake the iphone , he is going to reaload the whole TTLauncherView
@@ -46,7 +47,7 @@
     
     // create the first "root" node
     [map                    from: @"tt://launcher"
-          toSharedViewController: [LauncherViewController class]];
+          toSharedViewController: [ConferenceLaucherViewController class]];
     
     // add "children nodes"
     // tansition is animation style
@@ -58,16 +59,16 @@
               transition: 4];
     
     // is going to open some styletest/tabbartest controller form 320 exmaple classes
-    [map            from: @"tt://styleTest"
-                  parent: @"tt://launcher"
-        toViewController: [ConferenceLaucherViewController class]
-                selector: nil
-              transition: 5];
-//    [map            from: @"tt://tabbar"
+//    [map            from: @"tt://styleTest"
 //                  parent: @"tt://launcher"
-//        toViewController: [TabBarTestController class]
+//        toViewController: [LauncherViewController class]
 //                selector: nil
-//              transition: 6];
+//              transition: 5];
+    //    [map            from: @"tt://tabbar"
+    //                  parent: @"tt://launcher"
+    //        toViewController: [TabBarTestController class]
+    //                selector: nil
+    //              transition: 6];
     
     // multiarray that contains all "pages" icons and their links,options,names...
     // ending always with nil
@@ -78,40 +79,21 @@
                                                               URL:@"http://google.com" canDelete:NO] autorelease],
                            [[[TTLauncherItem alloc] initWithTitle:@"IPC 2012"
                                                             image:@"bundle://chair2.png"
-                                                              URL:@"http://google.com" canDelete:NO] autorelease],
-                           [[[TTLauncherItem alloc] initWithTitle:@"Statistics"
-                                                            image:@"bundle://criteria.png"
-                                                              URL:@"http://google.com" canDelete:YES] autorelease],
-                           [[[TTLauncherItem alloc] initWithTitle:@"New papers"
-                                                            image:@"bundle://paper.png"
-                                                              URL:@"http://google.de" canDelete:YES] autorelease],
-                           [[[TTLauncherItem alloc] initWithTitle:@"History log"
-                                                            image:@"bundle://history.png"
-                                                              URL:@"http://google.com" canDelete:NO] autorelease],
-                           [[[TTLauncherItem alloc] initWithTitle:@"News"
-                                                            image:@"bundle://new.png"
-                                                              URL:@"http://google.at" canDelete:YES] autorelease],
-                           [[[TTLauncherItem alloc] initWithTitle:@"People"
-                                                            image:@"bundle://people.png"
-                                                              URL:@"http://google.com" canDelete:YES] autorelease],
-                           [[[TTLauncherItem alloc] initWithTitle:@"Settings"
+                                                              URL:@"tt://styleTest" canDelete:YES] autorelease],
+                           [[[TTLauncherItem alloc] initWithTitle:@"TabBar test"
                                                             image:@"bundle://configuration.png"
-                                                              URL:@"http://google.com" canDelete:NO] autorelease],
-
+                                                              URL:@"tt://tabbar" canDelete:YES] autorelease],
+                           [[[TTLauncherItem alloc] initWithTitle:@"Yahoo"
+                                                            image:@"bundle://configuration.png"
+                                                              URL:@"http://yahoo.com" canDelete:YES] autorelease],
                            nil],
                           [NSArray arrayWithObjects:
-                           [[[TTLauncherItem alloc] initWithTitle:@"Dexa 2013"
-                                                            image:@"bundle://chair2.png"
+                           [[[TTLauncherItem alloc] initWithTitle:@"Google"
+                                                            image:@"bundle://configuration.png"
                                                               URL:@"http://google.com" canDelete:YES] autorelease],
-                           [[[TTLauncherItem alloc] initWithTitle:@"Event12 - Dexa 2011"
-                                                            image:@"bundle://events.png"
-                                                              URL:@"http://google.com" canDelete:YES] autorelease],
-                           [[[TTLauncherItem alloc] initWithTitle:@"Favorite"
-                                                            image:@"bundle://favorite.png"
-                                                              URL:@"http://google.com" canDelete:YES] autorelease],
-                           [[[TTLauncherItem alloc] initWithTitle:@"Statistics"
-                                                            image:@"bundle://criteria.png"
-                                                              URL:@"http://google.com" canDelete:YES] autorelease],
+                           [[[TTLauncherItem alloc] initWithTitle:@"Three20 API"
+                                                            image:@"bundle://configuration.png"
+                                                              URL:@"http://api.three20.info" canDelete:YES] autorelease],
                            
                            nil],
                           nil
@@ -120,17 +102,14 @@
     [self.view addSubview:launcherView]; //fetching to subview (now is visible)
     
     // querying option and post changes
-    TTLauncherItem* item = [launcherView itemWithURL:@"http://google.at"];
+    TTLauncherItem* item = [launcherView itemWithURL:@"http://galic-design.com"];
     item.badgeNumber = 4;
     
-    TTLauncherItem* item2 = [launcherView itemWithURL:@"http://google.de"];
-    item2.badgeNumber = 2;
+    item = [launcherView itemWithURL:@"http://google.com"];
+    item.badgeNumber = 31;
     
-//    item = [launcherView itemWithURL:@"http://google.com"];
-//    item.badgeNumber = 31;
-//    
-//    item = [launcherView itemWithURL:@"tt://styleTest"];
-//    item.badgeValue = @"Sly!";
+    item = [launcherView itemWithURL:@"tt://styleTest"];
+    item.badgeValue = @"Sly!";
     
 }
 
@@ -155,3 +134,4 @@
 }
 
 @end
+

@@ -12,11 +12,21 @@
 
 @synthesize window=_window;
 @synthesize startView;
+@synthesize conferenceLauncher;
 
 
 -(void)login:(NSString *)cmd sender:(id)sender message:(NSString *)msg{
     // login success -> switch to launcher
+    conferenceLauncher = [[LauncherViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:conferenceLauncher];
+    navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
+    
+    // add it to window
+    //[_window removeFromSuperview];
+    self.window.rootViewController = navigationController;
+    [_window addSubview:navigationController.view];
     XLog();
+    
 }
 
 -(void)expired:(NSString *)cmd sender:(id)sender message:(NSString *)msg{
