@@ -58,9 +58,9 @@
               transition: 4];
     
     // is going to open some styletest/tabbartest controller form 320 exmaple classes
-    [map            from: @"tt://styleTest"
+    [map            from: @"tt://MainEvent"
                   parent: @"tt://launcher"
-        toViewController: [ConferenceLaucherViewController class]
+        toViewController: [MainEventsController class]
                 selector: nil
               transition: 5];
 //    [map            from: @"tt://tabbar"
@@ -75,7 +75,7 @@
                           [NSArray arrayWithObjects:
                            [[[TTLauncherItem alloc] initWithTitle:@"Dexa 2011"
                                                             image:@"bundle://chair.png"
-                                                              URL:@"http://google.com" canDelete:NO] autorelease],
+                                                              URL:@"tt://MainEvent" canDelete:NO] autorelease],
                            [[[TTLauncherItem alloc] initWithTitle:@"IPC 2012"
                                                             image:@"bundle://chair2.png"
                                                               URL:@"http://google.com" canDelete:NO] autorelease],

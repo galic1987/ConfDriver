@@ -9,6 +9,7 @@
 #import <Three20/Three20.h> // import Three20 to launcherclass
 #import <Foundation/Foundation.h>
 #import "ConferenceLaucherViewController.h"
+#import "MainEventsController.h"
 // import the two three20 example classes
 //#import "StyleTestController.h"
 //#import "TabBarTestController.h"

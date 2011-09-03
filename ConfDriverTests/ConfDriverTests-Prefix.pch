@@ -2,6 +2,36 @@
 // Prefix header for all source files of the 'ConfDriverTests' target in the 'ConfDriverTests' project
 //
 
-#ifdef __OBJC__
+//#ifdef __OBJC__
     #import <UIKit/UIKit.h>
+    #import <Three20/Three20.h>
+    #import <Foundation/Foundation.h>
+
+//#endif
+
+#define SYSTEM_URL @"MacrosCanBeEvil";
+#define SYSTEM_CALL_LOGIN @"MacrosCanBeEvil";
+#define SYSTEM_CALL_LOGOUT @"MacrosCanBeEvil";
+#define SYSTEM_CALL_EVENTS  @"MacrosCanBeEvil";
+
+
+#define DEBUG 1
+//#define RELEASE 1
+
+#ifdef DEBUG
+
+//Debug definitions
+#define DEBUG_MODE
+#define XLog(fmt, ...) NSLog(@"%s " fmt, __PRETTY_FUNCTION__, ##__VA_ARGS__)
+
+#else
+
+#ifndef RELEASE
+#error DEBUG or RELEASE need to be #defined
 #endif
+
+//Release definitions
+#define RELEASE_MODE
+#define XLog(...)
+
+#endif 

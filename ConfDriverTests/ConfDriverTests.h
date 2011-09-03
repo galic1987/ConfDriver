@@ -9,9 +9,11 @@
 #import <SenTestingKit/SenTestingKit.h>
 
 
-@interface ConfDriverTests : SenTestCase {
+
+@interface ConfDriverTests : SenTestCase <TTURLRequestDelegate>{
+    TTURLDataResponse *response;
 @private
     
 }
-
+@property (retain,nonatomic) TTURLDataResponse *response;
 @end

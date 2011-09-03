@@ -29,9 +29,15 @@
 		4B122B3A136A4131000E9A6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B122B38136A4131000E9A6A /* InfoPlist.strings */; };
 		4B122B3D136A4131000E9A6A /* ConfDriverTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4B122B3C136A4131000E9A6A /* ConfDriverTests.h */; };
 		4B122B3F136A4131000E9A6A /* ConfDriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B122B3E136A4131000E9A6A /* ConfDriverTests.m */; };
+		4B1BC7F51407E677004BDE4A /* JSonRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BC7F41407E677004BDE4A /* JSonRequester.m */; };
+		4B1BC80E140A79DB004BDE4A /* MainEventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BC80D140A79DB004BDE4A /* MainEventsController.m */; };
+		4B1BC812140A7C76004BDE4A /* MockDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BC811140A7C76004BDE4A /* MockDataSource.m */; };
 		4BA944601389EE1A00DA3B54 /* StartUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA9445E1389EE1A00DA3B54 /* StartUIViewController.m */; };
 		4BA94463138AC91100DA3B54 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA94462138AC91100DA3B54 /* LoginView.xib */; };
 		4BA94464138AC91100DA3B54 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA94462138AC91100DA3B54 /* LoginView.xib */; };
+		4BCF108D140C0DE5004044B6 /* StandardTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF108C140C0DE5004044B6 /* StandardTableItem.m */; };
+		4BCF1090140C1E8E004044B6 /* StandardTableItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF108F140C1E8D004044B6 /* StandardTableItemCell.m */; };
+		4BCF1106140C2013004044B6 /* StandardTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF1105140C2013004044B6 /* StandardTableDataSource.m */; };
 		4BD61DD2138B201E005B10CA /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DBF138B201E005B10CA /* ASIAuthenticationDialog.m */; };
 		4BD61DD3138B201E005B10CA /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DC2138B201E005B10CA /* ASIDataCompressor.m */; };
 		4BD61DD4138B201E005B10CA /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61DC4138B201E005B10CA /* ASIDataDecompressor.m */; };
@@ -201,6 +207,20 @@
 			remoteGlobalIDString = 4B122B04136A4130000E9A6A;
 			remoteInfo = ConfDriver;
 		};
+		4B379C891412922D00E5BBED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A5A189C235877202780D0 /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 662D81EF12630516005851C2;
+			remoteInfo = "Three20Network-Xcode3.2.5";
+		};
+		4B379C8B1412922D00E5BBED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A5A189C235877202780D0 /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 662D81B2126304EB005851C2;
+			remoteInfo = "Three20NetworkUnitTests-Xcode3.2.5";
+		};
 		4B6FE5AC1374DAF7008B74D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */;
@@ -279,10 +299,22 @@
 		4B122B3B136A4131000E9A6A /* ConfDriverTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConfDriverTests-Prefix.pch"; sourceTree = "<group>"; };
 		4B122B3C136A4131000E9A6A /* ConfDriverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfDriverTests.h; sourceTree = "<group>"; };
 		4B122B3E136A4131000E9A6A /* ConfDriverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfDriverTests.m; sourceTree = "<group>"; };
+		4B1BC7F31407E677004BDE4A /* JSonRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSonRequester.h; sourceTree = "<group>"; };
+		4B1BC7F41407E677004BDE4A /* JSonRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSonRequester.m; sourceTree = "<group>"; };
+		4B1BC80C140A79DB004BDE4A /* MainEventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainEventsController.h; sourceTree = "<group>"; };
+		4B1BC80D140A79DB004BDE4A /* MainEventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEventsController.m; sourceTree = "<group>"; };
+		4B1BC810140A7C76004BDE4A /* MockDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockDataSource.h; sourceTree = "<group>"; };
+		4B1BC811140A7C76004BDE4A /* MockDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockDataSource.m; sourceTree = "<group>"; };
 		4BA9445D1389EE1A00DA3B54 /* StartUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUIViewController.h; sourceTree = "<group>"; };
 		4BA9445E1389EE1A00DA3B54 /* StartUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartUIViewController.m; sourceTree = "<group>"; };
 		4BA94462138AC91100DA3B54 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		4BA94466138AD53C00DA3B54 /* LoginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginProtocol.h; sourceTree = "<group>"; };
+		4BCF108B140C0DE5004044B6 /* StandardTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardTableItem.h; sourceTree = "<group>"; };
+		4BCF108C140C0DE5004044B6 /* StandardTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardTableItem.m; sourceTree = "<group>"; };
+		4BCF108E140C1E8D004044B6 /* StandardTableItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardTableItemCell.h; sourceTree = "<group>"; };
+		4BCF108F140C1E8D004044B6 /* StandardTableItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardTableItemCell.m; sourceTree = "<group>"; };
+		4BCF1104140C2013004044B6 /* StandardTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardTableDataSource.h; sourceTree = "<group>"; };
+		4BCF1105140C2013004044B6 /* StandardTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardTableDataSource.m; sourceTree = "<group>"; };
 		4BD61DBE138B201E005B10CA /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		4BD61DBF138B201E005B10CA /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		4BD61DC0138B201E005B10CA /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
@@ -422,7 +454,9 @@
 			isa = PBXGroup;
 			children = (
 				320A5A189C235877202780D4 /* libThree20Network.a */,
+				4B379C8A1412922D00E5BBED /* libThree20Network-Xcode3.2.5.a */,
 				4B6FE5B31374DAF7008B74D6 /* NetworkUnitTests.octest */,
+				4B379C8C1412922D00E5BBED /* NetworkUnitTests-Xcode3.2.5.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -509,6 +543,9 @@
 		4B122B0F136A4131000E9A6A /* ConfDriver */ = {
 			isa = PBXGroup;
 			children = (
+				4BB8E128140A9D450066788D /* TableView */,
+				4B1BC80F140A7C25004BDE4A /* Models */,
+				4B1BC7F21407E4D7004BDE4A /* Network */,
 				4BD61EA2138BDE25005B10CA /* External Frameworks */,
 				4BD61E28138BC644005B10CA /* LaucherViewControllers */,
 				4BD61E27138BC5F0005B10CA /* ViewControllers */,
@@ -553,6 +590,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4B1BC7F21407E4D7004BDE4A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4B1BC7F31407E677004BDE4A /* JSonRequester.h */,
+				4B1BC7F41407E677004BDE4A /* JSonRequester.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		4B1BC80F140A7C25004BDE4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B1BC810140A7C76004BDE4A /* MockDataSource.h */,
+				4B1BC811140A7C76004BDE4A /* MockDataSource.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		4BA94465138AD4C200DA3B54 /* DelegateProtocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -568,6 +623,35 @@
 				4B122B1B136A4131000E9A6A /* MainWindow.xib */,
 			);
 			name = Xib;
+			sourceTree = "<group>";
+		};
+		4BB8E128140A9D450066788D /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF1103140C1FDC004044B6 /* Models */,
+				4BB8E129140A9D940066788D /* Elements */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		4BB8E129140A9D940066788D /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF108B140C0DE5004044B6 /* StandardTableItem.h */,
+				4BCF108C140C0DE5004044B6 /* StandardTableItem.m */,
+				4BCF108E140C1E8D004044B6 /* StandardTableItemCell.h */,
+				4BCF108F140C1E8D004044B6 /* StandardTableItemCell.m */,
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
+		4BCF1103140C1FDC004044B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF1104140C2013004044B6 /* StandardTableDataSource.h */,
+				4BCF1105140C2013004044B6 /* StandardTableDataSource.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		4BD61DBD138B1FDC005B10CA /* Network */ = {
@@ -642,6 +726,8 @@
 			children = (
 				4BA9445D1389EE1A00DA3B54 /* StartUIViewController.h */,
 				4BA9445E1389EE1A00DA3B54 /* StartUIViewController.m */,
+				4B1BC80C140A79DB004BDE4A /* MainEventsController.h */,
+				4B1BC80D140A79DB004BDE4A /* MainEventsController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -851,6 +937,20 @@
 			remoteRef = 320F2C48872C2E2C4DF86206 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		4B379C8A1412922D00E5BBED /* libThree20Network-Xcode3.2.5.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libThree20Network-Xcode3.2.5.a";
+			remoteRef = 4B379C891412922D00E5BBED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4B379C8C1412922D00E5BBED /* NetworkUnitTests-Xcode3.2.5.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "NetworkUnitTests-Xcode3.2.5.octest";
+			remoteRef = 4B379C8B1412922D00E5BBED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		4B6FE5AD1374DAF7008B74D6 /* Three20UnitTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
@@ -995,6 +1095,12 @@
 				4BD61ED0138BDE5D005B10CA /* SBJsonTokeniser.m in Sources */,
 				4BD61ED2138BDE5D005B10CA /* SBJsonWriter.m in Sources */,
 				4BD61ED4138BDE5D005B10CA /* SBUTF8Stream.m in Sources */,
+				4B1BC7F51407E677004BDE4A /* JSonRequester.m in Sources */,
+				4B1BC80E140A79DB004BDE4A /* MainEventsController.m in Sources */,
+				4B1BC812140A7C76004BDE4A /* MockDataSource.m in Sources */,
+				4BCF108D140C0DE5004044B6 /* StandardTableItem.m in Sources */,
+				4BCF1090140C1E8E004044B6 /* StandardTableItemCell.m in Sources */,
+				4BCF1106140C2013004044B6 /* StandardTableDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
