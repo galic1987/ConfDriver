@@ -1,0 +1,1119 @@
+TConfDriver
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/Info.plist ConfDriver/ConfDriver-Info.plist
+cProcessPCH /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch.pth ConfDriver/ConfDriver-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConfDriverAppDelegate.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriverAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StartUIViewController.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StartUIViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/main.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/LauncherViewController.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LauncherViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConferenceLaucherViewController.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConferenceLaucherViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/JSonRequester.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/JSonRequester.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/MainEventsController.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItem.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItemCell.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItemCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableDataSource.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableDataSource.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ServerConstants.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonUTF8Stream.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonTokeniser.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParser.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonParser.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonWriter.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/NSObject+SBJson.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/HighLevelNetworkTests.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/HighLevelNetworkTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004EA511A30000000000000110
+t1319440803
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004E72F23F00000000002050D0
+t1316155967
+s2117840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004E72F3C800000000000998C0
+t1316156360
+s628928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E72F69C00000000001A9D20
+t1316157084
+s1744160
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004E72F177000000000006C8A0
+t1316155767
+s444576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/src/Three20.bundle
+c000000004E625AA20000000000000264
+t1315068578
+s612
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriver-Prefix.pch
+c000000004E63578F00000000000002F5
+t1315133327
+s757
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriverAppDelegate.m
+c000000004E635CDC0000000000000ECE
+t1315134684
+s3790
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConferenceLaucherViewController.m
+c000000004DDB90820000000000001781
+t1306235010
+s6017
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/JSonRequester.m
+c000000004EA2C23900000000000007E3
+t1319289401
+s2019
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LauncherViewController.m
+c000000004E5A61BC0000000000001E3C
+t1314546108
+s7740
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LoginView.xib
+c000000004DDA9AC4000000000000418B
+t1306172100
+s16779
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m
+c000000004E5FCD4700000000000004E5
+t1314901319
+s1253
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.m
+c000000004E42A6F300000000000008A6
+t1312990963
+s2214
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonParser.m
+c000000004E637E450000000000000CC0
+t1315143237
+s3264
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParser.m
+c000000004E637E4500000000000020D2
+t1315143237
+s8402
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAccumulator.m
+c000000004E637E45000000000000079B
+t1315143237
+s1947
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.m
+c000000004E637E4500000000000011DD
+t1315143237
+s4573
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserState.m
+c000000004E42A6F30000000000001FB6
+t1312990963
+s8118
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.m
+c000000004E42A6F30000000000002956
+t1312990963
+s10582
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterAccumulator.m
+c000000004E42A6F300000000000007EB
+t1312990963
+s2027
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterState.m
+c000000004DDB9E3B0000000000000F61
+t1306238523
+s3937
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonTokeniser.m
+c000000004E637E450000000000003386
+t1315143237
+s13190
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonUTF8Stream.m
+c000000004E637E450000000000000F21
+t1315143237
+s3873
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonWriter.m
+c000000004E42A6F30000000000000DBF
+t1312990963
+s3519
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.h
+c000000004E635DB000000000000001A1
+t1315134896
+s417
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.m
+c000000004E635D9500000000000001F3
+t1315134869
+s499
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableDataSource.m
+c000000004E625FB4000000000000051D
+t1315069876
+s1309
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItem.m
+c000000004E62CD7C0000000000000653
+t1315097980
+s1619
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItemCell.m
+c000000004E624CB20000000000000AC8
+t1315065010
+s2760
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StartUIViewController.m
+c000000004DDAA97500000000000006A5
+t1306175861
+s1701
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/chair.png
+c000000004DDB8662000000000000245D
+t1306232418
+s9309
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/chair2.png
+c000000004DDB86830000000000001720
+t1306232451
+s5920
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/chair2@2x.png
+c000000004DDB80330000000000002F5F
+t1306230835
+s12127
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/chair@2x.png
+c000000004DDB80170000000000007675
+t1306230807
+s30325
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/configuration.png
+c000000004DDB80AF00000000000013E0
+t1306230959
+s5088
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/configuration@2x.png
+c000000004DDB80AE0000000000003A0F
+t1306230958
+s14863
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/criteria.png
+c000000004DDB84D00000000000000CEA
+t1306232016
+s3306
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/criteria@2x.png
+c000000004DDB84C50000000000001B7F
+t1306232005
+s7039
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/en.lproj/InfoPlist.strings
+c000000004DBA09B1000000000000002D
+t1304037809
+s45
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/en.lproj/MainWindow.xib
+c000000004DDA12260000000000002D87
+t1306137126
+s11655
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/events.png
+c000000004DDB81C20000000000001685
+t1306231234
+s5765
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/events@2x.png
+c000000004DDB81B60000000000003A30
+t1306231222
+s14896
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/favorite.png
+c000000004DDB823D00000000000010AE
+t1306231357
+s4270
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/favorite@2x.png
+c000000004DDB82310000000000002EA5
+t1306231345
+s11941
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/history.png
+c000000004DDB81620000000000000FD6
+t1306231138
+s4054
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/history@2x.png
+c000000004DDB815F0000000000002950
+t1306231135
+s10576
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/main.m
+c000000004DBA09B1000000000000015E
+t1304037809
+s350
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/new.png
+c000000004DDB7FA30000000000001442
+t1306230691
+s5186
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/new@2x.png
+c000000004DDB7F440000000000003056
+t1306230596
+s12374
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/paper.png
+c000000004DDB846D0000000000000E19
+t1306231917
+s3609
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/paper@2x.png
+c000000004DDB8461000000000000268C
+t1306231905
+s9868
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/people.png
+c000000004DDB86D70000000000001E69
+t1306232535
+s7785
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/people@2x.png
+c000000004DDB829B00000000000046C4
+t1306231451
+s18116
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/topics.png
+c000000004DDB837D0000000000001701
+t1306231677
+s5889
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/topics@2x.png
+c000000004DDB83720000000000004026
+t1306231666
+s16422
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/HighLevelNetworkTests.m
+c000000004EA4576400000000000004E9
+t1319393124
+s1257
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConfDriver.LinkFileList
+c000000004EA517540000000000000E60
+t1319442260
+s3680
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConfDriverAppDelegate.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConferenceLaucherViewController.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/HighLevelNetworkTests.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/JSonRequester.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/LauncherViewController.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/MainEventsController.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/NSObject+SBJson.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonParser.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParser.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserState.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriter.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterState.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonTokeniser.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonUTF8Stream.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonWriter.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ServerConstants.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableDataSource.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItem.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItemCell.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StartUIViewController.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app.dSYM
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/Info.plist
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/LoginView.nib
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/PkgInfo
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/Three20.bundle
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/chair.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/chair2.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/chair2@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/chair@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/configuration.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/configuration@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/criteria.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/criteria@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/events.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/events@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/favorite.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/favorite@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/history.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/history@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/new.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/new@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/paper.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/paper@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/people.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/people@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/topics.png
+t2
+s0
+
+N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/topics@2x.png
+t2
+s0
+
+N/Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20.a
+c000000004EA517530000000000000198
+t1319442259
+s408
+
+N/Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a
+c000000004EA51728000000000003BBD8
+t1319442216
+s244696
+
+N/Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a
+c000000004EA5172C000000000004BB18
+t1319442220
+s310040
+
+N/Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a
+c000000004EA5174400000000000FDE08
+t1319442244
+s1039880
+
+N/Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a
+c000000004EA51750000000000059C390
+t1319442256
+s5882768
+
+N/Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a
+c000000004EA5172C0000000000049580
+t1319442220
+s300416
+
+N/Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a
+c000000004EA5173F00000000000754B8
+t1319442239
+s480440
+
+N/var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch.pth
+t2
+s0
+
+NConfDriver/ConfDriver-Info.plist
+c000000004DBA09B100000000000004A7
+t1304037809
+s1191
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriverAppDelegate.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConferenceLaucherViewController.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/JSonRequester.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LauncherViewController.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonParser.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParser.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAccumulator.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserState.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterAccumulator.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterState.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonTokeniser.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonUTF8Stream.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonWriter.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableDataSource.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItem.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItemCell.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StartUIViewController.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/main.m
+r0
+
+CBuild AST from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/HighLevelNetworkTests.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc8cf26d44e55b441^a14730d44e55b441^---0#1#0#--18"Check dependencies36"455AF9C5-0C49-45A0-8591-E85EB89FA58E-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConfDriverAppDelegate.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriverAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135060.473626
+e341135060.817520
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConfDriverAppDelegate.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriverAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriverAppDelegate.me65d79d44e55b441^0f60d1d44e55b441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriverAppDelegate.m0000000000000000^3155"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConfDriverAppDelegate.o ConfDriver/ConfDriverAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConfDriverAppDelegate.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriverAppDelegate.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConfDriverAppDelegate.o36"2F31233E-537B-4601-838D-B838273D711E-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConferenceLaucherViewController.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConferenceLaucherViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135060.858060
+e341135061.092425
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConferenceLaucherViewController.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConferenceLaucherViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConferenceLaucherViewController.m5ad4dbd44e55b441^67b617d54e55b441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConferenceLaucherViewController.m0000000000000000^3205"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConferenceLaucherViewController.o ConfDriver/ConferenceLaucherViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConferenceLaucherViewController.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConferenceLaucherViewController.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConferenceLaucherViewController.o36"DA7BC552-2210-4CFC-A390-6BD8038181CA-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/HighLevelNetworkTests.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/HighLevelNetworkTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135062.307337
+e341135062.522170
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/HighLevelNetworkTests.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/HighLevelNetworkTests.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/HighLevelNetworkTests.m45d64ed64e55b441^23c085d64e55b441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/HighLevelNetworkTests.m0000000000000000^3165"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/HighLevelNetworkTests.o ConfDriverTests/HighLevelNetworkTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/HighLevelNetworkTests.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/HighLevelNetworkTests.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/HighLevelNetworkTests.o36"91C790F5-BD1C-4666-B4A4-D63932965C07-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/JSonRequester.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/JSonRequester.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.083731
+e341135061.355598
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/JSonRequester.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/JSonRequester.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/JSonRequester.m7fbe15d54e55b441^78085bd54e55b441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/JSonRequester.m0000000000000000^3115"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/JSonRequester.o ConfDriver/JSonRequester.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/JSonRequester.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/JSonRequester.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/JSonRequester.o36"37047D14-7BC3-4747-BC8C-C5F0C15103A4-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/LauncherViewController.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LauncherViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135060.818939
+e341135061.079389
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/LauncherViewController.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LauncherViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LauncherViewController.mc9ccd1d44e55b441^935614d54e55b441^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LauncherViewController.m0000000000000000^3160"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/LauncherViewController.o ConfDriver/LauncherViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/LauncherViewController.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LauncherViewController.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/LauncherViewController.o36"9BD250DE-DCB1-4B52-8BB5-FE7A01BB4249-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/MainEventsController.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.093667
+e341135061.363883
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/MainEventsController.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m:47:12:{47:12-47:34}: warning: returning 'TTTableViewDragRefreshDelegate *' from a function with incompatible result type 'id<TTTableViewDelegate>' [3]
+o     return [delegate autorelease];
+o            ^~~~~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.me21d18d54e55b441^2e025fd54e55b441^-326"/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m:47:12:{47:12-47:34}: warning: returning 'TTTableViewDragRefreshDelegate *' from a function with incompatible result type 'id<TTTableViewDelegate>' [3]     return [delegate autorelease];            ^~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(21%IDEActivityLogMessage2@116"Returning 'TTTableViewDragRefreshDelegate *' from a function with incompatible result type 'id<TTTableViewDelegate>'-341135061#0#234#-1#-23%DVTTextDocumentLocation3@98"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m0000000000000000^46#11#46#11#18446744073709551615#0#14"Semantic Issue1(3@98"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m0000000000000000^46#11#46#33#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@98"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m0000000000000000^3150"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/MainEventsController.o ConfDriver/MainEventsController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/MainEventsController.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/MainEventsController.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/MainEventsController.o36"00E91D34-B1D2-4E49-85F7-8EABF2525D12-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/NSObject+SBJson.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135062.251669
+e341135062.306049
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/NSObject+SBJson.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.m9dbc40d64e55b441^045a4ed64e55b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.m0000000000000000^3125"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/NSObject+SBJson.o ConfDriver/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/NSObject+SBJson.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/NSObject+SBJson.o36"1400206C-0E4A-44CB-A8CD-26ED12D53CC1-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonParser.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.990548
+e341135062.034402
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonParser.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonParser.me0bbfdd54e55b441^a11009d64e55b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonParser.m0000000000000000^3110"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonParser.o ConfDriver/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonParser.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonParser.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonParser.o36"3806F1FC-CFFB-4642-80CC-DA24A0A917ED-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParser.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.978287
+e341135062.061564
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParser.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParser.m8599fad54e55b441^02d50fd64e55b441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParser.m0000000000000000^3140"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParser.o ConfDriver/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParser.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParser.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParser.o36"4ECBEC3D-D519-40AE-BB04-58CC3FE8A0FC-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.920881
+e341135061.976999
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAccumulator.m93e2ebd54e55b441^651dfad54e55b441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAccumulator.m0000000000000000^3195"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o ConfDriver/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAccumulator.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAccumulator.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o36"E0EA144D-2E47-4345-B11C-3B35002060A5-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.908723
+e341135061.989107
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.m37e3e8d54e55b441^7c43fdd54e55b441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.m0000000000000000^3175"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAdapter.o ConfDriver/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAdapter.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserAdapter.o36"84E28B91-B785-452A-8E7B-E90796739E1A-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135062.120966
+e341135062.246356
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserState.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserState.m111c1fd64e55b441^a2293fd64e55b441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserState.m0000000000000000^3165"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserState.o ConfDriver/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserState.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserState.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserState.o36"3A33C259-A9BC-4222-AB79-50684411E575-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135062.097443
+e341135062.261372
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriter.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.m381519d64e55b441^abe942d64e55b441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.m0000000000000000^3140"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriter.o ConfDriver/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriter.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriter.o36"6C6F299B-0B4E-43F0-A7EC-84007F4C54BD-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135062.062808
+e341135062.119561
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterAccumulator.m5c3c10d64e55b441^6f9e1ed64e55b441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterAccumulator.m0000000000000000^3195"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o ConfDriver/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterAccumulator.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o36"DCCF55E8-F0A7-442C-B174-8AE850B34256-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135062.262586
+e341135062.359198
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterState.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterState.m195843d64e55b441^75005cd64e55b441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterState.m0000000000000000^3165"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterState.o ConfDriver/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterState.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriterState.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterState.o36"1242EAF0-74C4-4CD7-835A-C3792B706F5E-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonTokeniser.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.816126
+e341135061.919559
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonTokeniser.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonTokeniser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonTokeniser.me414d1d54e55b441^fb79ebd54e55b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonTokeniser.m0000000000000000^3125"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonTokeniser.o ConfDriver/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonTokeniser.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonTokeniser.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonTokeniser.o36"8ECAF08E-9869-49FF-9A90-BC06E3B66351-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonUTF8Stream.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.771407
+e341135061.814719
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonUTF8Stream.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonUTF8Stream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonUTF8Stream.m999dc5d54e55b441^48a5d0d54e55b441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonUTF8Stream.m0000000000000000^3130"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonUTF8Stream.o ConfDriver/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonUTF8Stream.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonUTF8Stream.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonUTF8Stream.o36"EBFEBF04-B921-4F15-BB43-188B091B182D-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonWriter.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135062.035735
+e341135062.095953
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonWriter.m0c7809d64e55b441^ff9618d64e55b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonWriter.m0000000000000000^3110"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonWriter.o ConfDriver/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonWriter.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonWriter.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonWriter.o36"1F4813FE-5EDF-433E-B30C-58008FE19B7B-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ServerConstants.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.744167
+e341135061.770178
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ServerConstants.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.m2ba2bed54e55b441^4435c5d54e55b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.m0000000000000000^3125"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ServerConstants.o ConfDriver/ServerConstants.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ServerConstants.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ServerConstants.o36"B1B13D82-B28A-4527-8096-F4E8E729FD37-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableDataSource.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableDataSource.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.719553
+e341135061.907300
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableDataSource.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableDataSource.m9a5cb8d54e55b441^cd5ce8d54e55b441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableDataSource.m0000000000000000^3165"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableDataSource.o ConfDriver/StandardTableDataSource.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableDataSource.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableDataSource.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableDataSource.o36"B9DD654A-14E4-40B6-9A47-7FD2C9E77F1A-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItem.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.357431
+e341135061.718308
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItem.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItem.m33a35bd54e55b441^35f0b7d54e55b441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItem.m0000000000000000^3135"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItem.o ConfDriver/StandardTableItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItem.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItem.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItem.o36"A1C6CEA1-8016-4025-8C6E-A79C9A13852B-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItemCell.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItemCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135061.365097
+e341135061.742951
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItemCell.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItemCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItemCell.me09c5dd54e55b441^7634bed54e55b441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItemCell.m0000000000000000^3155"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItemCell.o ConfDriver/StandardTableItemCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItemCell.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StandardTableItemCell.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItemCell.o36"32CABED2-5456-4A12-8E43-C094D42E2FF6-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StartUIViewController.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StartUIViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135060.475303
+e341135060.738621
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StartUIViewController.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StartUIViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StartUIViewController.m99d779d44e55b441^2c2bbdd44e55b441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StartUIViewController.m0000000000000000^3155"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StartUIViewController.o ConfDriver/StartUIViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StartUIViewController.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/StartUIViewController.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StartUIViewController.o36"AB2E1FDF-3049-44F5-B562-BF763B54C87B-
+
+CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/main.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135060.739922
+e341135060.856807
+r1
+xCompileC
+xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/main.o
+x/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/main.m1894bdd44e55b441^c26bdbd44e55b441^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/main.m0000000000000000^3070"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/main.o ConfDriver/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/main.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/main.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/main.o36"CA6990AD-C6AC-47C1-AE8A-B106148274AB-
+
+CCompileXIB /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LoginView.xib
+r0
+
+CCompileXIB /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/en.lproj/MainWindow.xib
+r0
+
+CCopyStringsFile /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/en.lproj/InfoPlist.strings ConfDriver/en.lproj/InfoPlist.strings
+r0
+
+CCpResource ../../three20/src/Three20.bundle build/Debug-iphonesimulator/ConfDriver.app/Three20.bundle
+r0
+
+CCpResource ConfDriver/chair.png build/Debug-iphonesimulator/ConfDriver.app/chair.png
+r0
+
+CCpResource ConfDriver/chair2.png build/Debug-iphonesimulator/ConfDriver.app/chair2.png
+r0
+
+CCpResource ConfDriver/chair2@2x.png build/Debug-iphonesimulator/ConfDriver.app/chair2@2x.png
+r0
+
+CCpResource ConfDriver/chair@2x.png build/Debug-iphonesimulator/ConfDriver.app/chair@2x.png
+r0
+
+CCpResource ConfDriver/configuration.png build/Debug-iphonesimulator/ConfDriver.app/configuration.png
+r0
+
+CCpResource ConfDriver/configuration@2x.png build/Debug-iphonesimulator/ConfDriver.app/configuration@2x.png
+r0
+
+CCpResource ConfDriver/criteria.png build/Debug-iphonesimulator/ConfDriver.app/criteria.png
+r0
+
+CCpResource ConfDriver/criteria@2x.png build/Debug-iphonesimulator/ConfDriver.app/criteria@2x.png
+r0
+
+CCpResource ConfDriver/events.png build/Debug-iphonesimulator/ConfDriver.app/events.png
+r0
+
+CCpResource ConfDriver/events@2x.png build/Debug-iphonesimulator/ConfDriver.app/events@2x.png
+r0
+
+CCpResource ConfDriver/favorite.png build/Debug-iphonesimulator/ConfDriver.app/favorite.png
+r0
+
+CCpResource ConfDriver/favorite@2x.png build/Debug-iphonesimulator/ConfDriver.app/favorite@2x.png
+r0
+
+CCpResource ConfDriver/history.png build/Debug-iphonesimulator/ConfDriver.app/history.png
+r0
+
+CCpResource ConfDriver/history@2x.png build/Debug-iphonesimulator/ConfDriver.app/history@2x.png
+r0
+
+CCpResource ConfDriver/new.png build/Debug-iphonesimulator/ConfDriver.app/new.png
+r0
+
+CCpResource ConfDriver/new@2x.png build/Debug-iphonesimulator/ConfDriver.app/new@2x.png
+r0
+
+CCpResource ConfDriver/paper.png build/Debug-iphonesimulator/ConfDriver.app/paper.png
+r0
+
+CCpResource ConfDriver/paper@2x.png build/Debug-iphonesimulator/ConfDriver.app/paper@2x.png
+r0
+
+CCpResource ConfDriver/people.png build/Debug-iphonesimulator/ConfDriver.app/people.png
+r0
+
+CCpResource ConfDriver/people@2x.png build/Debug-iphonesimulator/ConfDriver.app/people@2x.png
+r0
+
+CCpResource ConfDriver/topics.png build/Debug-iphonesimulator/ConfDriver.app/topics.png
+r0
+
+CCpResource ConfDriver/topics@2x.png build/Debug-iphonesimulator/ConfDriver.app/topics@2x.png
+r0
+
+CGenerateDSYMFile /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app.dSYM /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver
+r0
+
+CLd /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver normal i386
+s341135062.524018
+e341135064.140835
+r0
+xLd
+x/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver
+xnormal
+xi386
+oUndefined symbols for architecture i386:
+o  "_OBJC_CLASS_$_SenTestCase", referenced from:
+o      _OBJC_CLASS_$_HighLevelNetworkTests in HighLevelNetworkTests.o
+o  "_OBJC_METACLASS_$_SenTestCase", referenced from:
+o      _OBJC_METACLASS_$_HighLevelNetworkTests in HighLevelNetworkTests.o
+old: symbol(s) not found for architecture i386
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver994786d64e55b441^930124d84e55b441^-409"Undefined symbols for architecture i386:  "_OBJC_CLASS_$_SenTestCase", referenced from:      _OBJC_CLASS_$_HighLevelNetworkTests in HighLevelNetworkTests.o  "_OBJC_METACLASS_$_SenTestCase", referenced from:      _OBJC_METACLASS_$_HighLevelNetworkTests in HighLevelNetworkTests.old: symbol(s) not found for architecture i386clang: error: linker command failed with exit code 1 (use -v to see invocation)6(21%IDEActivityLogMessage2@45""_OBJC_CLASS_$_SenTestCase", referenced from:-341135064#41#48#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@62"_OBJC_CLASS_$_HighLevelNetworkTests in HighLevelNetworkTests.o-341135064#89#69#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@49""_OBJC_METACLASS_$_SenTestCase", referenced from:-341135064#158#52#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@66"_OBJC_METACLASS_$_HighLevelNetworkTests in HighLevelNetworkTests.o-341135064#210#73#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@41"Symbol(s) not found for architecture i386-341135064#283#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@79"Clang: error: linker command failed with exit code 1 (use -v to see invocation)-341135064#329#80#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--0#0#0#--1991"Ld build/Debug-iphonesimulator/ConfDriver.app/ConfDriver normal i386    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -filelist /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConfDriver.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -ObjC -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -framework CoreGraphics -framework MobileCoreServices -framework SystemConfiguration -framework CFNetwork /Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a /Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20.a /Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a /Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a /Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -framework QuartzCore /Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a /Users/galic1987/Documents/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -framework UIKit -framework Foundation -o /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver36"2C99D7C9-14CB-4463-B11D-E71449A43871-
+
+CProcessInfoPlistFile /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/Info.plist ConfDriver/ConfDriver-Info.plist
+s341135060.207833
+e341135060.231059
+r1
+xProcessInfoPlistFile
+x/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/Info.plist
+xConfDriver/ConfDriver-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process ConfDriver/ConfDriver-Info.plist706135d44e55b441^c2313bd44e55b441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriver-Info.plist0000000000000000^637"ProcessInfoPlistFile build/Debug-iphonesimulator/ConfDriver.app/Info.plist ConfDriver/ConfDriver-Info.plist    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ConfDriver/ConfDriver-Info.plist -genpkginfo /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/Info.plist36"DAED93EA-5BDD-4163-BD5B-CF0A74C935E3-
+
+CProcessPCH /Users/galic1987/Library/Developer/Xcode/DerivedData/ConfDriver-eyynjpcozxbkcxdmxxliljvmfkhp/Index/PrecompiledHeaders/ConfDriver-Prefix-enjcptfkmvwefceapzbbnzawrjog_ast/ConfDriver-Prefix.pch.pth ConfDriver/ConfDriver-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch.pth ConfDriver/ConfDriver-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341135060.234765
+e341135060.472178
+r1
+xProcessPCH
+x/var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch.pth
+xConfDriver/ConfDriver-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile ConfDriver/ConfDriver-Prefix.pcheb3a3cd44e55b441^1ee178d44e55b441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriver-Prefix.pch0000000000000000^3079"ProcessPCH /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch.pth ConfDriver/ConfDriver-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-generated-files.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-own-target-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-all-target-headers.hmap -iquote /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/ConfDriver-project-headers.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ConfDriver-Prefix.pch -o /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ConfDriver-Prefix-bakxtttcvplaebbrblkckyijnost/ConfDriver-Prefix.pch.d36"C16BD4BD-5E17-4D05-A4F8-719502EBDA12-
+
+CTouch /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app
+r0
+

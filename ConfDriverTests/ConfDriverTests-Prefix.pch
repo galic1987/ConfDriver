@@ -3,16 +3,15 @@
 //
 
 //#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Three20/Three20.h>
-    #import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
+//
+//    #import <UIKit/UIKit.h>
+//    #import <Three20/Three20.h>
 
 //#endif
 
-#define SYSTEM_URL @"MacrosCanBeEvil";
-#define SYSTEM_CALL_LOGIN @"MacrosCanBeEvil";
-#define SYSTEM_CALL_LOGOUT @"MacrosCanBeEvil";
-#define SYSTEM_CALL_EVENTS  @"MacrosCanBeEvil";
+
+
 
 
 #define DEBUG 1

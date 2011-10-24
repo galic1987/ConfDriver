@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <Three20/Three20.h>
 #import "StandardTableItem.h"
+
 
 @interface StandardTableItemCell : TTTableLinkedItemCell {
 	UILabel *_titleLabel;

@@ -3,15 +3,16 @@
 //
 
 #import <Availability.h>
+#import "ServerConstants.h"
 
 #ifndef __IPHONE_3_0
 #warning "This project uses features only available in iPhone SDK 3.0 and later."
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
-    #import <Three20/Three20.h>
+//    #import <UIKit/UIKit.h>
+//    #import <Foundation/Foundation.h>
+//    #import <Three20/Three20.h>
 #endif
 
 
@@ -19,7 +20,7 @@
 //#define RELEASE 1
 
 #ifdef DEBUG
-
+//
 //Debug definitions
 #define DEBUG_MODE
 #define XLog(fmt, ...) NSLog(@"%s " fmt, __PRETTY_FUNCTION__, ##__VA_ARGS__)

@@ -6,7 +6,7 @@
 //  Copyright 2011 Galic Design. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Three20/Three20.h>
 
 
 @interface StandardTableItem : TTTableLinkedItem {

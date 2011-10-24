@@ -8,10 +8,18 @@
 
 #import <Foundation/Foundation.h>
 #import <Three20/Three20.h>
+#import "ServerConstants.h"
 
-@interface JSonRequester : NSObject {
-    TTURLRequest *request;
+@interface JSonRequester : TTURLRequestModel <TTURLResponse>{
+    //TTURLRequest *loadingRequest;
+    TTURLDataResponse *response;
+    NSString* downloadUrl;
+
 }
-@property (nonatomic,retain)  TTURLRequest *request;
--(NSMutableArray *)login:(NSString *)user pass:(NSString *)pass;
+//@property (nonatomic,retain)  TTURLRequest *_loadingRequest;
+@property (nonatomic,retain)  TTURLDataResponse *response;
+@property (nonatomic, assign) NSString* downloadUrl;
+
+
+-(BOOL)login:(NSString *)user pass:(NSString *)pass;
 @end
