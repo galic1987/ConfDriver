@@ -9,11 +9,11 @@
 #import <SenTestingKit/SenTestingKit.h>
 #import <Three20/Three20.h>
 #import "ServerConstants.h"
-#import "JSonRequester.h"
+#import "NetworkRequest.h"
 
 @interface MidLevelNetworkTests : SenTestCase <TTModelDelegate> {
-    JSonRequester * jsReq;
+    NetworkRequest * jsReq;
 }
-@property (retain,nonatomic)   JSonRequester * jsReq;
+@property (retain,nonatomic)   NetworkRequest * jsReq;
 
 @end

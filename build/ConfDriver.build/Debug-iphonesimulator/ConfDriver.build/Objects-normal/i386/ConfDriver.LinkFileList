@@ -3,7 +3,7 @@
 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StartUIViewController.o
 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/LauncherViewController.o
 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ConferenceLaucherViewController.o
-/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/JSonRequester.o
+/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/NetworkRequest.o
 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/MainEventsController.o
 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItem.o
 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/StandardTableItemCell.o
@@ -21,3 +21,12 @@
 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamParserState.o
 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/NSObject+SBJson.o
 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SBJsonStreamWriterState.o
+/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/Event.o
+/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/ParseJSonNetworkData.o
+/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/SingletonUser.o
+/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/Reviewer.o
+/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/Paper.o
+/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/Topic.o
+/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/Session.o
+/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/Criteria.o
+/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriver.build/Objects-normal/i386/History.o

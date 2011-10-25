@@ -225,4 +225,12 @@ dependencies: \
   ../../three20/Build/Products/three20/Three20UI/TTThumbsDataSource.h \
   ../../three20/Build/Products/three20/Three20UI/TTThumbsTableViewCell.h \
   ../../three20/Build/Products/three20/Three20UI/TTThumbView.h \
-  ../../three20/Build/Products/three20/Three20UI/TTRecursiveProgress.h
+  ../../three20/Build/Products/three20/Three20UI/TTRecursiveProgress.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJson.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonParser.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonWriter.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParser.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Event.h
