@@ -244,7 +244,18 @@ dependencies: \
   ../../three20/Build/Products/three20/Three20UI/TTThumbView.h \
   ../../three20/Build/Products/three20/Three20UI/TTRecursiveProgress.h \
   /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.h \
-  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/JSonRequester.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LoginNetworkInterface.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/DataObjectNetworkInterface.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Reviewer.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Event.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Paper.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Topic.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Session.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Criteria.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/History.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SingletonUser.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ParseJSonNetworkData.h \
   /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJson.h \
   /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonParser.h \
   /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonWriter.h \
@@ -252,4 +263,5 @@ dependencies: \
   /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.h \
   /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.h \
   /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.h \
-  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Event.h
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/LoginParserInterface.h \
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/DataObjectsParserInterface.h

@@ -11,7 +11,6 @@
 #import "ServerConstants.h"
 #import "SBJson.h"
 #import "ServerConstants.h"
-#import "JSonRequester.h"
 
 
 @interface LowLevelJsonAndNetworkTests : SenTestCase <TTURLRequestDelegate,TTURLResponse>{

@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @protocol LoginNetworkInterface <NSObject>
-
+@required
     -(BOOL)login:(NSString *)user pass:(NSString *)pass sendSynchronously:(BOOL)sendSynchronously;
     -(BOOL)logout:(BOOL)sendSynchronously;
-    -(BOOL)checkIfLogged;
+    -(BOOL)checkIfLogged:(BOOL)sendSynchronously;
 
 
 @end

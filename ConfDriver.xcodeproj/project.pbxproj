@@ -382,9 +382,9 @@
 		4BEDDC71145724E80083DA79 /* Reviewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reviewer.m; sourceTree = "<group>"; };
 		4BEDDC74145725D50083DA79 /* Paper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paper.h; sourceTree = "<group>"; };
 		4BEDDC75145725D50083DA79 /* Paper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paper.m; sourceTree = "<group>"; };
-		4BEDDC78145725E70083DA79 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; path = Topic.h; sourceTree = "<group>"; };
+		4BEDDC78145725E70083DA79 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
 		4BEDDC79145725E70083DA79 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
-		4BEDDC7C145726130083DA79 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; path = Session.h; sourceTree = "<group>"; };
+		4BEDDC7C145726130083DA79 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
 		4BEDDC7D145726130083DA79 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
 		4BEDDC80145726240083DA79 /* Criteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Criteria.h; sourceTree = "<group>"; };
 		4BEDDC81145726240083DA79 /* Criteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Criteria.m; sourceTree = "<group>"; };

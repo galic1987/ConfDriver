@@ -250,6 +250,4 @@ dependencies: \
   /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParser.h \
   /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.h \
   /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamWriter.h \
-  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.h \
-  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/JSonRequester.h \
-  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Event.h
+  /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.h

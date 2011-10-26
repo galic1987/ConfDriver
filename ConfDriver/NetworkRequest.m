@@ -11,8 +11,8 @@
 
 @implementation NetworkRequest
 
-//@synthesize loadingRequest = _loadingRequest;
 @synthesize response;
+@synthesize request;
 @synthesize downloadUrl = _downloadUrl;
 
 
@@ -28,74 +28,218 @@
     return self;
 }
 
--(BOOL)login:(NSString *)user pass:(NSString *)pass sendSynchronously:(BOOL)sendSynchronously{
-    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@",ServerURL,ServerLoginCall];
-    TTURLRequest *request = [[[TTURLRequest alloc] initWithURL:_downloadUrl delegate: self] autorelease];
+-(void)prepareRequest:(NSString*)url{
+    request = [[TTURLRequest alloc] initWithURL:_downloadUrl delegate: self];
     [request setResponse:self.response];
     request.httpMethod = @"POST";
     request.cachePolicy = TTURLRequestCachePolicyNoCache;
-    NSString *params = [[[NSString alloc]initWithFormat:@"name=%@&pass=%@",user,pass]autorelease];
+    request.contentType=@"application/x-www-form-urlencoded";
+}
+
+-(BOOL)login:(NSString *)user pass:(NSString *)pass sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@",ServerURL,ServerLoginCall];
+    [self prepareRequest:_downloadUrl];
+    NSString *params = [[NSString alloc]initWithFormat:@"name=%@&pass=%@",user,pass];
     NSData* params2= [params dataUsingEncoding: NSASCIIStringEncoding];
     request.httpBody = params2;
-    request.contentType=@"application/x-www-form-urlencoded";
-    
-    
     // sendSynchronously will be used mostly in tests 
     if (sendSynchronously) {
         [request sendSynchronously];
-        NSString *someString = [[[NSString alloc] initWithData:[[self response]data] encoding:NSUTF8StringEncoding]autorelease];
-
-        NSDictionary * data = (NSDictionary *)[someString JSONValue];
-        if ([@"OK" isEqualToString:[data objectForKey:@"message"]]) {
+        if([ParseJSonNetworkData validateLogin:[[self response]data]]){
+            [ParseJSonNetworkData changeLoginObject:[[self response]data]];
             return YES;
         }else{
             return NO;
-        }          
+        }
     }else{
-        
         [request send];
     }
     
-    return YES;
+    return NO;
+}
+
+-(BOOL)logout:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@",ServerURL,ServerLogoutCall];
+    [self prepareRequest:_downloadUrl];
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        [ParseJSonNetworkData logout];
+        [SingletonUser logout];
+        return YES;
+    }else{
+        [request send];
+        [SingletonUser logout];
+    }
+    return NO;
+}
+
+-(BOOL)checkIfLogged:(BOOL)sendSynchronously{
+    return [SingletonUser checkLogged];
 }
 
 -(NSMutableArray*)getEventsById:(NSString *)eventId sendSynchronously:(BOOL)sendSynchronously{
-    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerEventCall,eventId];
-    TTURLRequest *request = [[[TTURLRequest alloc] initWithURL:_downloadUrl delegate: self] autorelease];
-    [request setResponse:self.response];
-    request.httpMethod = @"POST";
-    request.cachePolicy = TTURLRequestCachePolicyNoCache;
-    request.contentType=@"application/x-www-form-urlencoded";
-    
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerEventsByEventIdCall,eventId];
+    [self prepareRequest:_downloadUrl];
     // sendSynchronously will be used mostly in tests 
     if (sendSynchronously) {
         [request sendSynchronously];
-        NSString *someString = [[[NSString alloc] initWithData:[[self response]data] encoding:NSUTF8StringEncoding]autorelease];
-        NSDictionary * data = (NSDictionary *)[someString JSONValue];
-        NSMutableArray * array = [[NSMutableArray alloc]init];
-        
-        for (NSDictionary* d in data){
-            NSString * oid = [d objectForKey:@"oid"];
-            NSString * name = [d objectForKey:@"name"];
-            NSString * label = [d objectForKey:@"label"];
-            
-            //XLog("Adding to array \nOID:%@\n NAME:%@\n LABEL:%@",oid,name,label );
-            Event *ev = [[[Event alloc]initWithName:name oid:oid label:label]autorelease];
-            [array addObject:ev];
-            
-        }
-        
-        return array;
-        
-            
+        return [ParseJSonNetworkData getEventsFromResponse:[[self response]data]];  
     }else{
-        
         [request send];
     }
-    
     return nil;
-    
 }
 
+-(Event *)getEventById:(NSString *)eventId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerSingleEventCall,eventId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return [ParseJSonNetworkData getEventFromResponse:[[self response]data]];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
 
+//reviewers
+-(NSMutableArray *)getReviewersByEventId:(NSString *)eventId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerReviewersByEventCall,eventId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return [ParseJSonNetworkData getReviewersFromResponse:[[self response]data]];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
+-(NSMutableArray *)getReviewersByPaperId:(NSString *)paperId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerReviewersByPaperCall,paperId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return [ParseJSonNetworkData getReviewersFromResponse:[[self response]data]];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
+-(Reviewer *)getReviewerById:(NSString *)reviewerId sendSynchronously:(BOOL)sendSynchronously{
+    return nil;
+}
+
+//papers
+-(NSMutableArray *)getPapersByEventId:(NSString *)eventId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerPapersByEventIdCall,eventId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return [ParseJSonNetworkData getPapersFromResponse:[[self response]data]];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
+-(NSMutableArray *)getPapersByTopicId:(NSString *)topicId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerPapersByTopicIdCall,topicId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return [ParseJSonNetworkData getPapersFromResponse:[[self response]data]];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
+-(NSMutableArray *)getPapersBySessionId:(NSString *)sessionId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerPapersBySessionIdCall,sessionId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return [ParseJSonNetworkData getPapersFromResponse:[[self response]data]];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
+-(Paper *)getPaperById:(NSString *)paperId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerSinglePaperByIdCall,paperId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return (Paper *)[[ParseJSonNetworkData getPapersFromResponse:[[self response]data]] objectAtIndex:0];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
+
+//topics
+-(NSMutableArray *)getTopicsByEventId:(NSString *)eventId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerTopicsByEventIdCall,eventId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return [ParseJSonNetworkData getTopicsFromResponse:[[self response]data]];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
+
+//sessions
+-(NSMutableArray *)getSessionsByEventId:(NSString *)eventId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerSessionsByEventIdCall,eventId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return [ParseJSonNetworkData getSessionsFromResponse:[[self response]data]];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
+
+//criteria
+-(NSMutableArray *)getCriteriaByEventId:(NSString *)eventId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerCriteriaByEventIdCall,eventId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return [ParseJSonNetworkData getCriteriaFromResponse:[[self response]data]];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
+
+//history
+-(NSMutableArray *)getHistoryByEventId:(NSString *)eventId sendSynchronously:(BOOL)sendSynchronously{
+    _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerHistoryByEventIdCall,eventId];
+    [self prepareRequest:_downloadUrl];
+    // sendSynchronously will be used mostly in tests 
+    if (sendSynchronously) {
+        [request sendSynchronously];
+        return [ParseJSonNetworkData getHistoryFromResponse:[[self response]data]];  
+    }else{
+        [request send];
+    }
+    return nil;
+}
+
+- (NSError*)request:(TTURLRequest*)request processResponse:(NSHTTPURLResponse*)response data:(id)data{
+    XLog();
+    return nil;
+}
 @end

@@ -9,23 +9,30 @@
 #import <Foundation/Foundation.h>
 #import <Three20/Three20.h>
 #import "ServerConstants.h"
-#import "SBJson.h"
 #import "LoginNetworkInterface.h"
 #import "DataObjectNetworkInterface.h"
+#import "SingletonUser.h"
+#import "ParseJSonNetworkData.h"
+#import "LoginParserInterface.h"
 
 
 @interface NetworkRequest : TTURLRequestModel <TTURLResponse,DataObjectNetworkInterface,LoginNetworkInterface>{
     TTURLDataResponse *response;
     NSString* downloadUrl;
-
+    TTURLRequest *request;
 }
 @property (nonatomic,retain)  TTURLDataResponse *response;
 @property (nonatomic, assign) NSString* downloadUrl;
+@property (nonatomic, assign) TTURLRequest *request;
+
+
+// private
+-(void)prepareRequest:(NSString*)url;
 
 // LoginNetworkInterface
 -(BOOL)login:(NSString *)user pass:(NSString *)pass sendSynchronously:(BOOL)sendSynchronously;
 -(BOOL)logout:(BOOL)sendSynchronously;
--(BOOL)checkIfLogged;
+-(BOOL)checkIfLogged:(BOOL)sendSynchronously;
 
 // DataObjectNetworkInterface
 //events
@@ -48,5 +55,7 @@
 -(NSMutableArray *)getCriteriaByEventId:(NSString *)eventId sendSynchronously:(BOOL)sendSynchronously;
 //history
 -(NSMutableArray *)getHistoryByEventId:(NSString *)eventId sendSynchronously:(BOOL)sendSynchronously;
+
+
 
 @end

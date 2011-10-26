@@ -22,16 +22,7 @@
 
     // Set-up code here.
     //clear the cookies
-    
-    NSHTTPCookieStorage * sharedCookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
-    NSArray * cookies = [sharedCookieStorage cookies];
-    for (NSHTTPCookie * cookie in cookies){
-        NSLog(@"%@",cookie.domain);
-        if ([cookie.domain rangeOfString:CookiesURL].location != NSNotFound){
-            NSLog(@"deleting");
-            [sharedCookieStorage deleteCookie:cookie];
-        }
-    }
+    [SingletonUser clearCookies];
 
 }
 
@@ -70,8 +61,43 @@
         // Do your thing with the object.
         XLog("Listing array \nOID:%@\n NAME:%@\n LABEL:%@",element.oid,element.name,element.label );
     }
-    [r release];
 }
+
+-(void)testLogout{
+    STAssertEquals([jsReq login:@"test" pass:@"test123" sendSynchronously:YES],YES,@"Should return TRUE if logged in");
+    [jsReq release];
+    jsReq = [[NetworkRequest alloc]init];
+
+    [jsReq logout:YES];
+    [jsReq release];
+    jsReq = [[NetworkRequest alloc]init];
+
+    STAssertEquals([jsReq login:@"test" pass:@"test123" sendSynchronously:YES],YES,@"Should return TRUE if logged in");
+    XLog(@"fail");
+    [jsReq release];
+    jsReq = [[NetworkRequest alloc]init];
+    STAssertEquals([jsReq login:@"test" pass:@"test123" sendSynchronously:YES],NO,@"Cant be loggedin 2 times");
+
+}
+
+-(void)testgetEventsDataAndParseItToArrayObjects_shouldFail{
+   STAssertEquals([jsReq login:@"test" pass:@"test123" sendSynchronously:YES],YES,@"Should return TRUE if logged in");
+    [jsReq release];
+    
+    jsReq = [[NetworkRequest alloc]init];
+    NSArray *r = [jsReq getEventsById:@"149" sendSynchronously:YES]; // getArrayOfEventObject
+    //STAssertNil(r, @"nil is not right");
+    NSEnumerator * enumerator = [r objectEnumerator];
+    Event * element;
+    
+    while(element = [enumerator nextObject])
+    {
+        // Do your thing with the object.
+        XLog("Listing array \nOID:%@\n NAME:%@\n LABEL:%@",element.oid,element.name,element.label );
+    }
+    XLog();
+}
+
 
 // TEST END
 

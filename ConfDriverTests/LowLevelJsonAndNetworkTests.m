@@ -145,7 +145,7 @@
 - (void)test2GetData
 {
     //STFail(@"Unit tests are not implemented yet in ConfDriverTests");
-    NSString * url = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerEventCall,@"149"];
+    NSString * url = [[NSString alloc]initWithFormat:@"%@%@%@",ServerURL,ServerEventsByEventIdCall,@"149"];
 
     TTURLRequest *request = [[[TTURLRequest alloc] initWithURL:url delegate: self] autorelease];
     [request setResponse:self.response];
@@ -198,7 +198,7 @@
     
     NSString *someString = [[NSString alloc] initWithData:[[self response]data] encoding:NSUTF8StringEncoding];
     
-    //NSLog(@"%@",someString);
+    NSLog(@"********* %@",someString);
 
 }
 - (NSError*)request:(TTURLRequest*)request processResponse:(NSHTTPURLResponse*)response

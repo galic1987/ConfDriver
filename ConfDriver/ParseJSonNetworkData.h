@@ -7,25 +7,36 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SBJson.h"
 #import "LoginParserInterface.h"
+#import "DataObjectsParserInterface.h"
+#import "SingletonUser.h"
 
-@interface ParseJSonNetworkData : NSObject <LoginParserInterface>{
+@interface ParseJSonNetworkData : NSObject <LoginParserInterface,DataObjectsParserInterface>{
     
 }
-
+// LoginParserInterface
 // LOGIN
-+(BOOL)validateLogin:(NSString *)loginResponse;
-+(BOOL)changeLoginObject:(NSString *)loginResponse;
++(BOOL)validateLogin:(NSData *)loginResponse;
++(BOOL)changeLoginObject:(NSData *)loginResponse;
 +(BOOL)checkIfLogged;
 +(BOOL)logout;
 
-// EVENTS
-
-
-// PAPERS
-
-
-// 
-
+// DataobjectParserInterface
+// events
++(NSMutableArray *)getEventsFromResponse:(NSData *)response;
++(Event  *)getEventFromResponse:(NSData *)response;
+// reviewers
++(NSMutableArray *)getReviewersFromResponse:(NSData *)response;
+// papers
++(NSMutableArray *)getPapersFromResponse:(NSData *)response;
+// topics
++(NSMutableArray *)getTopicsFromResponse:(NSData *)response;
+// session
++(NSMutableArray *)getSessionsFromResponse:(NSData *)response;
+// criteria
++(NSMutableArray *)getCriteriaFromResponse:(NSData *)response;
+// history
++(NSMutableArray *)getHistoryFromResponse:(NSData *)response;
 
 @end

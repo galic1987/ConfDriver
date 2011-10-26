@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ServerConstants.h"
 
-@interface SingletonUser : NSObject
-
+@interface SingletonUser : NSObject{
+}
++ (SingletonUser *)changeData:(BOOL)logged sessionId:(NSString*)sessionId;
++ (BOOL)checkLogged;
++ (BOOL)clearCookies;
++ (BOOL)logout;
 @end

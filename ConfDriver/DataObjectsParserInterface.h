@@ -7,23 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Event.h"
 @protocol DataObjectsParserInterface <NSObject>
+@required
 // events
-+(NSArray *)getEventsFromResponse:(NSString *)response;
-+(Event  *)getEventFromResponse:(NSString *)response;
++(NSMutableArray *)getEventsFromResponse:(NSData *)response;
++(Event  *)getEventFromResponse:(NSData *)response;
 // reviewers
-+(NSArray *)getReviewersFromResponse:(NSString *)response;
++(NSMutableArray *)getReviewersFromResponse:(NSData *)response;
 // papers
-+(NSArray *)getPapersFromResponse:(NSString *)response;
++(NSMutableArray *)getPapersFromResponse:(NSData *)response;
 // topics
-+(NSArray *)getTopicsFromResponse:(NSString *)response;
++(NSMutableArray *)getTopicsFromResponse:(NSData *)response;
 // session
-+(NSArray *)getSessionsFromResponse:(NSString *)response;
++(NSMutableArray *)getSessionsFromResponse:(NSData *)response;
 // criteria
-+(NSArray *)getCriteriaFromResponse:(NSString *)response;
++(NSMutableArray *)getCriteriaFromResponse:(NSData *)response;
 // history
-+(NSArray *)getHistoryFromResponse:(NSString *)response;
-
-// other things
++(NSMutableArray *)getHistoryFromResponse:(NSData *)response;
 @end

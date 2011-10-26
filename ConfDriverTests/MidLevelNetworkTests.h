@@ -10,6 +10,7 @@
 #import <Three20/Three20.h>
 #import "ServerConstants.h"
 #import "NetworkRequest.h"
+#import "SingletonUser.h"
 
 @interface MidLevelNetworkTests : SenTestCase <TTModelDelegate> {
     NetworkRequest * jsReq;

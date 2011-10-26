@@ -10,8 +10,9 @@
 
 @protocol LoginParserInterface <NSObject>
 // LOGIN
-+(BOOL)validateLogin:(NSString *)loginResponse;
-+(BOOL)changeLoginObject:(NSString *)loginResponse;
+@required
++(BOOL)validateLogin:(NSData *)loginResponse;
++(BOOL)changeLoginObject:(NSData *)loginResponse;
 +(BOOL)checkIfLogged;
 +(BOOL)logout;
 @end
