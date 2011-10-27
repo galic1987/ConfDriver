@@ -12,14 +12,17 @@
 
 @implementation StartUIViewController
 
-@synthesize email,password,serverMessage,delegate;
+@synthesize email,password,serverMessage,delegate,button;
 
 
 -(IBAction) login:(id)sender{
     // send to server 
     NSLog(@"Login with following data: email:%@ pass:%@",email.text, password.text);
-    serverMessage.text = @"Server responding in this way!!!";
+    serverMessage.text = @"Contacting server...";
     [delegate login:email.text sender:self message:@"login"];
+    [password resignFirstResponder];
+    [email resignFirstResponder];
+
 }
 
 -(IBAction)editingEnded:(id)sender{
@@ -39,6 +42,7 @@
 
 - (void)dealloc
 {
+    [button release];
     [email release];
     [password release];
     [serverMessage release];

@@ -17,13 +17,13 @@
         self.items = [[NSMutableArray alloc] init]; 
         
     
-//		self.items = [NSArray arrayWithObjects:
-//                      [StandardTableItem itemWithTitle:@"First" subtitle:@"Hello #1! -----" uid:2],
-//                      [StandardTableItem itemWithTitle:@"Second" subtitle:@"Hello #2!----- kasfisaf viafjasoifasiovaj osidjasi some long boring text that initiates my bornines by all respect" uid:1],
-//                      [StandardTableItem itemWithTitle:@"Third" subtitle:@"Hello #3!" uid:3],
-//                      [StandardTableItem itemWithTitle:@"Fourth" subtitle:@"Hello #4!" uid:4],
-//                      [StandardTableItem itemWithTitle:@"Fifth" subtitle:@"Hello #5!" uid:5],
-//                      nil];
+		self.items = [NSArray arrayWithObjects:
+                      [StandardTableItem itemWithTitle:@"First" subtitle:@"Hello #1! -----" uid:2],
+                      [StandardTableItem itemWithTitle:@"Second" subtitle:@"Hello #2!----- kasfisaf viafjasoifasiovaj osidjasi some long boring text that initiates my bornines by all respect" uid:1],
+                      [StandardTableItem itemWithTitle:@"Third" subtitle:@"Hello #3!" uid:3],
+                      [StandardTableItem itemWithTitle:@"Fourth" subtitle:@"Hello #4!" uid:4],
+                      [StandardTableItem itemWithTitle:@"Fifth" subtitle:@"Hello #5!" uid:5],
+                      nil];
         
 	}
     

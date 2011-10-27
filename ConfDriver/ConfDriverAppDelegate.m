@@ -12,35 +12,42 @@
 
 @synthesize window=_window;
 @synthesize startView;
-@synthesize conferenceLauncher;
+@synthesize conferenceLauncher,req,navigationController;
 
 
 -(void)login:(NSString *)cmd sender:(id)sender message:(NSString *)msg{
-    // login success -> switch to launcher
-    conferenceLauncher = [[LauncherViewController alloc] init];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:conferenceLauncher];
-    navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
-    
-    // add it to window
-    //[_window removeFromSuperview];
-    self.window.rootViewController = navigationController;
-    [_window addSubview:navigationController.view];
-    XLog();
-    
+    [SingletonUser clearCookies];
+    req = [[NetworkRequest alloc]init];
+    [req.delegates addObject:self];
+    [req login:startView.email.text pass:startView.password.text sendSynchronously:NO];
 }
 
 -(void)expired:(NSString *)cmd sender:(id)sender message:(NSString *)msg{
     //session expired
+    [SingletonUser logout];
     XLog();
 }
 
 -(void)logout:(NSString *)cmd sender:(id)sender message:(NSString *)msg{
+    [SingletonUser logout];
+    [navigationController removeFromParentViewController];
+    //[startView release];
+    TT_RELEASE_SAFELY(conferenceLauncher);
+    [navigationController release];
+    return;
+    startView = [[StartUIViewController alloc] initWithNibName:@"LoginView" bundle:[NSBundle mainBundle]];
+    startView.delegate = self;
     //logout
     XLog();
 }
 
 
-
+-(void)logout{
+    [SingletonUser logout];
+    
+    //logout
+    XLog();
+}
 
 
 
@@ -117,5 +124,44 @@
 {
 }
 */
+
+
+// TTURLRequestDelegate
+- (void)modelDidStartLoad:(id <TTModel>)model {
+    XLog();
+}
+
+- (void)modelDidFinishLoad:(id <TTModel>)model {
+    XLog();
+    if([ParseJSonNetworkData validateLogin:[[req response]data]]){
+        // login success -> switch to launcher
+        conferenceLauncher = [[LauncherViewController alloc] init];
+        navigationController = [[UINavigationController alloc] initWithRootViewController:conferenceLauncher];
+        navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
+        
+        UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithTitle:@"Logout" style:UIBarButtonItemStyleDone target:self action:@selector(logout:)];
+        navigationController.navigationItem.rightBarButtonItem = segmentBarItem;
+        //.[segmentBarItem release];
+        
+        
+        //navigationController.navigationItem
+        // add it to window
+        //[_window removeFromSuperview];
+        self.window.rootViewController = navigationController;
+        [_window addSubview:navigationController.view];
+        XLog();
+    }else{
+        startView.serverMessage.text = @"Wrong email/password combination! Please try again!";
+    }
+    TT_RELEASE_SAFELY(req);
+}
+
+- (void)model:(id <TTModel>)model didFailLoadWithError:(NSError *)error {
+    XLog();
+}
+
+- (void)modelDidCancelLoad:(id <TTModel>)model {
+    XLog();
+}
 
 @end

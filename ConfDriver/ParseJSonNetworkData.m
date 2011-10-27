@@ -15,8 +15,10 @@
 // LoginParserInterface
 // LOGIN
 +(BOOL)validateLogin:(NSData *)loginResponse{
-    NSString *someString = [[[NSString alloc] initWithData:loginResponse encoding:NSUTF8StringEncoding]autorelease];
+    NSString *someString = [[NSString alloc] initWithData:loginResponse encoding:NSUTF8StringEncoding];
+    XLog("-----> %@",someString);
     NSDictionary * data = (NSDictionary *)[someString JSONValue];
+    //[someString release];
     if ([@"OK" isEqualToString:[data objectForKey:@"message"]]) {
         return YES;
     }else{

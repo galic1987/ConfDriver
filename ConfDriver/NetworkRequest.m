@@ -40,6 +40,7 @@
     _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@",ServerURL,ServerLoginCall];
     [self prepareRequest:_downloadUrl];
     NSString *params = [[NSString alloc]initWithFormat:@"name=%@&pass=%@",user,pass];
+    XLog(@"%@",params);
     NSData* params2= [params dataUsingEncoding: NSASCIIStringEncoding];
     request.httpBody = params2;
     // sendSynchronously will be used mostly in tests 
