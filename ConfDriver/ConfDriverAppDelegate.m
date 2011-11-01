@@ -19,7 +19,21 @@
     [SingletonUser clearCookies];
     req = [[NetworkRequest alloc]init];
     [req.delegates addObject:self];
-    [req login:startView.email.text pass:startView.password.text sendSynchronously:NO];
+    startView.serverMessage.text = @"Connecting to server...";
+    if([req login:startView.email.text pass:startView.password.text sendSynchronously:YES]){
+        // login success -> switch to launcher
+        conferenceLauncher = [[LauncherViewController alloc] init];
+        conferenceLauncher.logdelegate = self;
+        navigationController = [[UINavigationController alloc] initWithRootViewController:conferenceLauncher];
+        navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
+        self.window.rootViewController = navigationController;
+        [_window addSubview:navigationController.view];
+
+        XLog();
+    }else{
+        startView.serverMessage.text = @"Wrong email/password combination! Please try again!";
+    }
+    TT_RELEASE_SAFELY(req);
 }
 
 -(void)expired:(NSString *)cmd sender:(id)sender message:(NSString *)msg{
@@ -29,14 +43,20 @@
 }
 
 -(void)logout:(NSString *)cmd sender:(id)sender message:(NSString *)msg{
+    [self.window.rootViewController removeFromParentViewController];
+    [_window removeFromSuperview];
     [SingletonUser logout];
+    
     [navigationController removeFromParentViewController];
-    //[startView release];
     TT_RELEASE_SAFELY(conferenceLauncher);
     [navigationController release];
-    return;
+    [startView release];
+
     startView = [[StartUIViewController alloc] initWithNibName:@"LoginView" bundle:[NSBundle mainBundle]];
     startView.delegate = self;
+    
+    [_window addSubview:[startView view]];
+    [_window makeKeyAndVisible];
     //logout
     XLog();
 }
@@ -44,7 +64,7 @@
 
 -(void)logout{
     [SingletonUser logout];
-    
+    [self logout:@"user invoked" sender:self message:@""];
     //logout
     XLog();
 }
@@ -133,27 +153,7 @@
 
 - (void)modelDidFinishLoad:(id <TTModel>)model {
     XLog();
-    if([ParseJSonNetworkData validateLogin:[[req response]data]]){
-        // login success -> switch to launcher
-        conferenceLauncher = [[LauncherViewController alloc] init];
-        navigationController = [[UINavigationController alloc] initWithRootViewController:conferenceLauncher];
-        navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
-        
-        UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithTitle:@"Logout" style:UIBarButtonItemStyleDone target:self action:@selector(logout:)];
-        navigationController.navigationItem.rightBarButtonItem = segmentBarItem;
-        //.[segmentBarItem release];
-        
-        
-        //navigationController.navigationItem
-        // add it to window
-        //[_window removeFromSuperview];
-        self.window.rootViewController = navigationController;
-        [_window addSubview:navigationController.view];
-        XLog();
-    }else{
-        startView.serverMessage.text = @"Wrong email/password combination! Please try again!";
-    }
-    TT_RELEASE_SAFELY(req);
+
 }
 
 - (void)model:(id <TTModel>)model didFailLoadWithError:(NSError *)error {

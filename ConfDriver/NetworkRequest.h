@@ -19,11 +19,13 @@
 @interface NetworkRequest : TTURLRequestModel <TTURLResponse,DataObjectNetworkInterface,LoginNetworkInterface>{
     TTURLDataResponse *response;
     NSString* downloadUrl;
+    NSString* params;
     TTURLRequest *request;
 }
-@property (nonatomic,retain)  TTURLDataResponse *response;
-@property (nonatomic, assign) NSString* downloadUrl;
-@property (nonatomic, assign) TTURLRequest *request;
+@property (nonatomic)  TTURLDataResponse *response;
+@property (nonatomic) NSString* downloadUrl;
+@property (nonatomic) NSString* params;
+@property (nonatomic) TTURLRequest *request;
 
 
 // private

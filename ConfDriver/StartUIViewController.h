@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "LoginProtocol.h"
 
-@interface StartUIViewController : UIViewController {
+@interface StartUIViewController : UIViewController <UITextFieldDelegate> {
     UITextField *email;
     UITextField *password;
     UIButton *button;

@@ -20,23 +20,30 @@
     NSLog(@"Login with following data: email:%@ pass:%@",email.text, password.text);
     serverMessage.text = @"Contacting server...";
     [delegate login:email.text sender:self message:@"login"];
-    [password resignFirstResponder];
-    [email resignFirstResponder];
-
+    //[password becomeFirstResponder];
+    //[password resignFirstResponder];
 }
 
 -(IBAction)editingEnded:(id)sender{
     [sender resignFirstResponder]; 
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+   // [email resignFirstResponder];
+    return NO;
+}
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+
     }
+    // Custom initialization
+    password.delegate = self;
+    email.delegate = self;
     return self;
 }
 
@@ -61,6 +68,7 @@
 
 - (void)viewDidLoad
 {
+    
     [email becomeFirstResponder];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.

@@ -3,8 +3,8 @@ v4
 r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/Info.plist ConfDriverTests/ConfDriverTests-Info.plist
-cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ServerConstants.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/LowLevelJsonAndNetworkTests.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ServerConstants.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ServerConstants.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/SBJsonUTF8Stream.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/SBJsonTokeniser.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -136,1128 +136,1128 @@ t1316488875
 s9401232
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20/Three20.h
-c000000004EA9BC200000000000000388
-t1319746592
+c000000004EADDBB70000000000000388
+t1320016823
 s904
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTAvailability.h
-c000000004EA9BE2D0000000000000A6A
-t1319747117
+c000000004EB024030000000000000A6A
+t1320166403
 s2666
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTCorePreprocessorMacros.h
-c000000004EA9BE2D00000000000009FA
-t1319747117
+c000000004EB0240300000000000009FA
+t1320166403
 s2554
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTDebug.h
-c000000004EA9BE2D0000000000000EC0
-t1319747117
+c000000004EB024030000000000000EC0
+t1320166403
 s3776
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTEntityTables.h
-c000000004EA9BE2D00000000000004E0
-t1319747117
+c000000004EB0240300000000000004E0
+t1320166403
 s1248
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTExtensionAuthor.h
-c000000004EA9BE2D0000000000000555
-t1319747117
+c000000004EB024030000000000000555
+t1320166403
 s1365
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTExtensionInfo.h
-c000000004EA9BE2D00000000000004F6
-t1319747117
+c000000004EB0240300000000000004F6
+t1320166403
 s1270
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTExtensionLoader.h
-c000000004EA9BE2D0000000000000A53
-t1319747117
+c000000004EB024030000000000000A53
+t1320166403
 s2643
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTGlobalCore.h
-c000000004EA9BE2D00000000000005E6
-t1319747117
+c000000004EB0240300000000000005E6
+t1320166403
 s1510
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTGlobalCoreLocale.h
-c000000004EA9BE2D000000000000056D
-t1319747117
+c000000004EB02403000000000000056D
+t1320166403
 s1389
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTGlobalCorePaths.h
-c000000004EA9BE2D00000000000005D7
-t1319747117
+c000000004EB0240300000000000005D7
+t1320166403
 s1495
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTGlobalCoreRects.h
-c000000004EA9BE2D0000000000000520
-t1319747117
+c000000004EB024030000000000000520
+t1320166403
 s1312
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/TTMarkupStripper.h
-c000000004EA9BE2D00000000000003CB
-t1319747117
+c000000004EB0240200000000000003CB
+t1320166402
 s971
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/Three20.h
-c000000004EA9BE2D00000000000007AC
-t1319747117
+c000000004EB0240300000000000007AC
+t1320166403
 s1964
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/Three20Core.h
-c000000004EA9BE2D00000000000004D8
-t1319747117
+c000000004EB0240300000000000004D8
+t1320166403
 s1240
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Core/Three20Version.h
-c000000004EA9BE2D0000000000000461
-t1319747117
+c000000004EB024030000000000000461
+t1320166403
 s1121
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTErrorCodes.h
-c000000004EA9BC0C000000000000030D
-t1319746572
+c000000004EADDBA1000000000000030D
+t1320016801
 s781
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTGlobalNetwork.h
-c000000004EA9BC0C000000000000057D
-t1319746572
+c000000004EADDBA1000000000000057D
+t1320016801
 s1405
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTModel.h
-c000000004EA9BC0C0000000000000CEB
-t1319746572
+c000000004EADDBA10000000000000CEB
+t1320016801
 s3307
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTModelDelegate.h
-c000000004EA9BC0C00000000000008A8
-t1319746572
+c000000004EADDBA100000000000008A8
+t1320016801
 s2216
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTURLCache.h
-c000000004EA9BC0C00000000000018EA
-t1319746572
+c000000004EADDBA100000000000018EA
+t1320016801
 s6378
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTURLDataResponse.h
-c000000004EA9BC0C0000000000000363
-t1319746572
+c000000004EADDBA10000000000000363
+t1320016801
 s867
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTURLImageResponse.h
-c000000004EA9BC0C0000000000000434
-t1319746572
+c000000004EADDBA10000000000000434
+t1320016801
 s1076
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTURLRequest.h
-c000000004EA9BC0C0000000000002261
-t1319746572
+c000000004EADDBA10000000000002261
+t1320016801
 s8801
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTURLRequestCachePolicy.h
-c000000004EA9BC0C00000000000004CF
-t1319746572
+c000000004EADDBA100000000000004CF
+t1320016801
 s1231
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTURLRequestDelegate.h
-c000000004EA9BC0C00000000000006C3
-t1319746572
+c000000004EADDBA100000000000006C3
+t1320016801
 s1731
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTURLRequestModel.h
-c000000004EA9BC0C000000000000070C
-t1319746572
+c000000004EADDBA1000000000000070C
+t1320016801
 s1804
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTURLRequestQueue.h
-c000000004EA9BC0C0000000000000F0A
-t1319746572
+c000000004EADDBA10000000000000F0A
+t1320016801
 s3850
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTURLResponse.h
-c000000004EA9BC0C0000000000000845
-t1319746572
+c000000004EADDBA10000000000000845
+t1320016801
 s2117
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/TTUserInfo.h
-c000000004EA9BC0C0000000000000673
-t1319746572
+c000000004EADDBA10000000000000673
+t1320016801
 s1651
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Network/Three20Network.h
-c000000004EA9BC0C000000000000058B
-t1319746572
+c000000004EADDBA1000000000000058B
+t1320016801
 s1419
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTBevelBorderStyle.h
-c000000004EA9BC0F0000000000000563
-t1319746575
+c000000004EADDBA40000000000000563
+t1320016804
 s1379
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTBlendStyle.h
-c000000004EA9BC0F0000000000000340
-t1319746575
+c000000004EADDBA40000000000000340
+t1320016804
 s832
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTBoxStyle.h
-c000000004EA9BC0F00000000000005FD
-t1319746575
+c000000004EADDBA400000000000005FD
+t1320016804
 s1533
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTContentStyle.h
-c000000004EA9BC0F00000000000002DB
-t1319746575
+c000000004EADDBA400000000000002DB
+t1320016804
 s731
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTDefaultStyleSheet+DragRefreshHeader.h
-c000000004EA9BC1000000000000004C3
-t1319746576
+c000000004EADDBA500000000000004C3
+t1320016805
 s1219
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTDefaultStyleSheet.h
-c000000004EA9BC0F0000000000001162
-t1319746575
+c000000004EADDBA40000000000001162
+t1320016804
 s4450
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTFlowLayout.h
-c000000004EA9BC0F0000000000000324
-t1319746575
+c000000004EADDBA40000000000000324
+t1320016804
 s804
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTFourBorderStyle.h
-c000000004EA9BC0F0000000000000630
-t1319746575
+c000000004EADDBA40000000000000630
+t1320016804
 s1584
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTGlobalStyle.h
-c000000004EA9BC0F000000000000077D
-t1319746575
+c000000004EADDBA4000000000000077D
+t1320016804
 s1917
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTGridLayout.h
-c000000004EA9BC0F0000000000000373
-t1319746575
+c000000004EADDBA40000000000000373
+t1320016804
 s883
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTHighlightBorderStyle.h
-c000000004EA9BC0F0000000000000442
-t1319746575
+c000000004EADDBA40000000000000442
+t1320016804
 s1090
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTImageStyle.h
-c000000004EA9BC0F00000000000007A7
-t1319746575
+c000000004EADDBA400000000000007A7
+t1320016804
 s1959
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTInnerShadowStyle.h
-c000000004EA9BC0F00000000000002B8
-t1319746575
+c000000004EADDBA400000000000002B8
+t1320016804
 s696
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTInsetStyle.h
-c000000004EA9BC0F0000000000000337
-t1319746575
+c000000004EADDBA40000000000000337
+t1320016804
 s823
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTLayout.h
-c000000004EA9BC0F00000000000002F8
-t1319746575
+c000000004EADDBA400000000000002F8
+t1320016804
 s760
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTLinearGradientBorderStyle.h
-c000000004EA9BC0F00000000000005DC
-t1319746575
+c000000004EADDBA400000000000005DC
+t1320016804
 s1500
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTLinearGradientFillStyle.h
-c000000004EA9BC0F00000000000003D5
-t1319746575
+c000000004EADDBA400000000000003D5
+t1320016804
 s981
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTMaskStyle.h
-c000000004EA9BC0F000000000000032D
-t1319746575
+c000000004EADDBA4000000000000032D
+t1320016804
 s813
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTPartStyle.h
-c000000004EA9BC0F00000000000003CD
-t1319746575
+c000000004EADDBA400000000000003CD
+t1320016804
 s973
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTPosition.h
-c000000004EA9BC0F00000000000002CA
-t1319746575
+c000000004EADDBA400000000000002CA
+t1320016804
 s714
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTRectangleShape.h
-c000000004EA9BC0F00000000000002C8
-t1319746575
+c000000004EADDBA400000000000002C8
+t1320016804
 s712
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTReflectiveFillStyle.h
-c000000004EA9BC0F0000000000000435
-t1319746575
+c000000004EADDBA40000000000000435
+t1320016804
 s1077
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTRoundedLeftArrowShape.h
-c000000004EA9BC0F000000000000032E
-t1319746575
+c000000004EADDBA4000000000000032E
+t1320016804
 s814
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTRoundedRectangleShape.h
-c000000004EA9BC1000000000000004DD
-t1319746576
+c000000004EADDBA400000000000004DD
+t1320016804
 s1245
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTRoundedRightArrowShape.h
-c000000004EA9BC100000000000000330
-t1319746576
+c000000004EADDBA40000000000000330
+t1320016804
 s816
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTShadowStyle.h
-c000000004EA9BC100000000000000402
-t1319746576
+c000000004EADDBA40000000000000402
+t1320016804
 s1026
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTShape.h
-c000000004EA9BC1000000000000004D8
-t1319746576
+c000000004EADDBA400000000000004D8
+t1320016804
 s1240
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTShapeStyle.h
-c000000004EA9BC10000000000000038A
-t1319746576
+c000000004EADDBA4000000000000038A
+t1320016804
 s906
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTSolidBorderStyle.h
-c000000004EA9BC100000000000000399
-t1319746576
+c000000004EADDBA40000000000000399
+t1320016804
 s921
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTSolidFillStyle.h
-c000000004EA9BC10000000000000033B
-t1319746576
+c000000004EADDBA4000000000000033B
+t1320016804
 s827
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTSpeechBubbleShape.h
-c000000004EA9BC1000000000000007EA
-t1319746576
+c000000004EADDBA400000000000007EA
+t1320016804
 s2026
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyle.h
-c000000004EA9BC100000000000000474
-t1319746576
+c000000004EADDBA40000000000000474
+t1320016804
 s1140
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyleContext.h
-c000000004EA9BC1000000000000004BA
-t1319746576
+c000000004EADDBA400000000000004BA
+t1320016804
 s1210
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyleDelegate.h
-c000000004EA9BC10000000000000039D
-t1319746576
+c000000004EADDBA5000000000000039D
+t1320016805
 s925
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyleSheet.h
-c000000004EA9BC1000000000000003E3
-t1319746576
+c000000004EADDBA500000000000003E3
+t1320016805
 s995
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledBlock.h
-c000000004EA9BC1000000000000002B7
-t1319746576
+c000000004EADDBA500000000000002B7
+t1320016805
 s695
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledBoldNode.h
-c000000004EA9BC1000000000000002B8
-t1319746576
+c000000004EADDBA500000000000002B8
+t1320016805
 s696
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledBoxFrame.h
-c000000004EA9BC100000000000000437
-t1319746576
+c000000004EADDBA50000000000000437
+t1320016805
 s1079
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledButtonNode.h
-c000000004EA9BC10000000000000042B
-t1319746576
+c000000004EADDBA5000000000000042B
+t1320016805
 s1067
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledElement.h
-c000000004EA9BC100000000000000515
-t1319746576
+c000000004EADDBA50000000000000515
+t1320016805
 s1301
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledFrame.h
-c000000004EA9BC1000000000000005E0
-t1319746576
+c000000004EADDBA500000000000005E0
+t1320016805
 s1504
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledImageFrame.h
-c000000004EA9BC10000000000000046E
-t1319746576
+c000000004EADDBA5000000000000046E
+t1320016805
 s1134
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledImageNode.h
-c000000004EA9BC10000000000000043F
-t1319746576
+c000000004EADDBA5000000000000043F
+t1320016805
 s1087
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledInline.h
-c000000004EA9BC1000000000000002B8
-t1319746576
+c000000004EADDBA500000000000002B8
+t1320016805
 s696
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledInlineBlock.h
-c000000004EA9BC1000000000000002BD
-t1319746576
+c000000004EADDBA500000000000002BD
+t1320016805
 s701
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledInlineFrame.h
-c000000004EA9BC1000000000000003F3
-t1319746576
+c000000004EADDBA500000000000003F3
+t1320016805
 s1011
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledItalicNode.h
-c000000004EA9BC1000000000000002BA
-t1319746576
+c000000004EADDBA500000000000002BA
+t1320016805
 s698
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledLineBreakNode.h
-c000000004EA9BC1000000000000002BB
-t1319746576
+c000000004EADDBA500000000000002BB
+t1320016805
 s699
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledLinkNode.h
-c000000004EA9BC10000000000000041F
-t1319746576
+c000000004EADDBA5000000000000041F
+t1320016805
 s1055
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledNode.h
-c000000004EA9BC10000000000000047B
-t1319746576
+c000000004EADDBA5000000000000047B
+t1320016805
 s1147
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledText.h
-c000000004EA9BC100000000000000F84
-t1319746576
+c000000004EADDBA50000000000000F84
+t1320016805
 s3972
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledTextDelegate.h
-c000000004EA9BC100000000000000314
-t1319746576
+c000000004EADDBA50000000000000314
+t1320016805
 s788
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledTextFrame.h
-c000000004EA9BC1000000000000004D5
-t1319746576
+c000000004EADDBA500000000000004D5
+t1320016805
 s1237
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledTextNode.h
-c000000004EA9BC10000000000000037D
-t1319746576
+c000000004EADDBA5000000000000037D
+t1320016805
 s893
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTStyledTextParser.h
-c000000004EA9BC10000000000000055F
-t1319746576
+c000000004EADDBA5000000000000055F
+t1320016805
 s1375
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/TTTextStyle.h
-c000000004EA9BC100000000000000B13
-t1319746576
+c000000004EADDBA50000000000000B13
+t1320016805
 s2835
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20Style/Three20Style.h
-c000000004EA9BC100000000000000C09
-t1319746576
+c000000004EADDBA50000000000000C09
+t1320016805
 s3081
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTActionSheetController.h
-c000000004EA9BC170000000000000C84
-t1319746583
+c000000004EADDBAD0000000000000C84
+t1320016813
 s3204
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTActionSheetControllerDelegate.h
-c000000004EA9BC170000000000000704
-t1319746583
+c000000004EADDBAD0000000000000704
+t1320016813
 s1796
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTActivityLabel.h
-c000000004EA9BC170000000000000749
-t1319746583
+c000000004EADDBAD0000000000000749
+t1320016813
 s1865
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTAlertViewController.h
-c000000004EA9BC170000000000000663
-t1319746583
+c000000004EADDBAD0000000000000663
+t1320016813
 s1635
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTAlertViewControllerDelegate.h
-c000000004EA9BC170000000000000394
-t1319746583
+c000000004EADDBAD0000000000000394
+t1320016813
 s916
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTButton.h
-c000000004EA9BC170000000000000799
-t1319746583
+c000000004EADDBAD0000000000000799
+t1320016813
 s1945
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTButtonBar.h
-c000000004EA9BC1700000000000003E1
-t1319746583
+c000000004EADDBAD00000000000003E1
+t1320016813
 s993
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTErrorView.h
-c000000004EA9BC1700000000000003FB
-t1319746583
+c000000004EADDBAD00000000000003FB
+t1320016813
 s1019
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTExtensionsController.h
-c000000004EA9BC18000000000000068E
-t1319746584
+c000000004EADDBAE000000000000068E
+t1320016814
 s1678
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTImageView.h
-c000000004EA9BC170000000000000BD3
-t1319746583
+c000000004EADDBAD0000000000000BD3
+t1320016813
 s3027
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTImageViewDelegate.h
-c000000004EA9BC1700000000000005B7
-t1319746583
+c000000004EADDBAD00000000000005B7
+t1320016813
 s1463
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTLabel.h
-c000000004EA9BC170000000000000346
-t1319746583
+c000000004EADDBAD0000000000000346
+t1320016813
 s838
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTLauncherItem.h
-c000000004EA9BC170000000000000673
-t1319746583
+c000000004EADDBAD0000000000000673
+t1320016813
 s1651
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTLauncherPersistenceMode.h
-c000000004EA9BC1800000000000002F7
-t1319746584
+c000000004EADDBAE00000000000002F7
+t1320016814
 s759
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTLauncherView.h
-c000000004EA9BC170000000000000E6B
-t1319746583
+c000000004EADDBAD0000000000000E6B
+t1320016813
 s3691
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTLauncherViewDelegate.h
-c000000004EA9BC1700000000000004F0
-t1319746583
+c000000004EADDBAD00000000000004F0
+t1320016813
 s1264
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTLink.h
-c000000004EA9BC170000000000000460
-t1319746583
+c000000004EADDBAD0000000000000460
+t1320016813
 s1120
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTListDataSource.h
-c000000004EA9BC1700000000000003F3
-t1319746583
+c000000004EADDBAD00000000000003F3
+t1320016813
 s1011
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTMessageController.h
-c000000004EA9BC170000000000001B6A
-t1319746583
+c000000004EADDBAD0000000000001B6A
+t1320016813
 s7018
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTMessageControllerDelegate.h
-c000000004EA9BC17000000000000081A
-t1319746583
+c000000004EADDBAD000000000000081A
+t1320016813
 s2074
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTMessageField.h
-c000000004EA9BC17000000000000058E
-t1319746583
+c000000004EADDBAD000000000000058E
+t1320016813
 s1422
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTMessageRecipientField.h
-c000000004EA9BC1700000000000003C8
-t1319746583
+c000000004EADDBAD00000000000003C8
+t1320016813
 s968
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTMessageSubjectField.h
-c000000004EA9BC17000000000000037B
-t1319746583
+c000000004EADDBAD000000000000037B
+t1320016813
 s891
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTMessageTextField.h
-c000000004EA9BC170000000000000331
-t1319746583
+c000000004EADDBAD0000000000000331
+t1320016813
 s817
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTModelViewController.h
-c000000004EA9BC170000000000001712
-t1319746583
+c000000004EADDBAD0000000000001712
+t1320016813
 s5906
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTNavigationController.h
-c000000004EA9BC18000000000000047D
-t1319746584
+c000000004EADDBAE000000000000047D
+t1320016814
 s1149
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTNavigator.h
-c000000004EA9BC1800000000000004CB
-t1319746584
+c000000004EADDBAE00000000000004CB
+t1320016814
 s1227
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPageControl.h
-c000000004EA9BC170000000000000505
-t1319746583
+c000000004EADDBAD0000000000000505
+t1320016813
 s1285
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPhoto.h
-c000000004EA9BC1700000000000004FC
-t1319746583
+c000000004EADDBAD00000000000004FC
+t1320016813
 s1276
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPhotoSource.h
-c000000004EA9BC1700000000000004F7
-t1319746583
+c000000004EADDBAD00000000000004F7
+t1320016813
 s1271
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPhotoVersion.h
-c000000004EA9BC1700000000000002EB
-t1319746583
+c000000004EADDBAD00000000000002EB
+t1320016813
 s747
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPhotoView.h
-c000000004EA9BC170000000000000581
-t1319746583
+c000000004EADDBAD0000000000000581
+t1320016813
 s1409
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPhotoViewController.h
-c000000004EA9BC170000000000000C70
-t1319746583
+c000000004EADDBAD0000000000000C70
+t1320016813
 s3184
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPickerTextField.h
-c000000004EA9BC170000000000000533
-t1319746583
+c000000004EADDBAD0000000000000533
+t1320016813
 s1331
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPickerTextFieldDelegate.h
-c000000004EA9BC1700000000000003DE
-t1319746583
+c000000004EADDBAD00000000000003DE
+t1320016813
 s990
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPopupViewController.h
-c000000004EA9BC1700000000000005B3
-t1319746583
+c000000004EADDBAD00000000000005B3
+t1320016813
 s1459
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPostController.h
-c000000004EA9BC170000000000000955
-t1319746583
+c000000004EADDBAD0000000000000955
+t1320016813
 s2389
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTPostControllerDelegate.h
-c000000004EA9BC1700000000000005F1
-t1319746583
+c000000004EADDBAD00000000000005F1
+t1320016813
 s1521
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTRecursiveProgress.h
-c000000004EA9BC170000000000000E79
-t1319746583
+c000000004EADDBAD0000000000000E79
+t1320016813
 s3705
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTScrollView.h
-c000000004EA9BC170000000000001D7D
-t1319746583
+c000000004EADDBAD0000000000001D7D
+t1320016813
 s7549
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTScrollViewDataSource.h
-c000000004EA9BC17000000000000058A
-t1319746583
+c000000004EADDBAD000000000000058A
+t1320016813
 s1418
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTScrollViewDelegate.h
-c000000004EA9BC1700000000000007A7
-t1319746583
+c000000004EADDBAD00000000000007A7
+t1320016813
 s1959
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTSearchBar.h
-c000000004EA9BC17000000000000085C
-t1319746583
+c000000004EADDBAD000000000000085C
+t1320016813
 s2140
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTSearchDisplayController.h
-c000000004EA9BC170000000000000637
-t1319746583
+c000000004EADDBAD0000000000000637
+t1320016813
 s1591
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTSearchTextField.h
-c000000004EA9BC170000000000000703
-t1319746583
+c000000004EADDBAD0000000000000703
+t1320016813
 s1795
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTSearchTextFieldDelegate.h
-c000000004EA9BC170000000000000341
-t1319746583
+c000000004EADDBAD0000000000000341
+t1320016813
 s833
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTSearchlightLabel.h
-c000000004EA9BC170000000000000520
-t1319746583
+c000000004EADDBAD0000000000000520
+t1320016813
 s1312
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTSectionedDataSource.h
-c000000004EA9BC170000000000000841
-t1319746583
+c000000004EADDBAD0000000000000841
+t1320016813
 s2113
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTSplitViewController.h
-c000000004EA9BC18000000000000060D
-t1319746584
+c000000004EADDBAE000000000000060D
+t1320016814
 s1549
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTStyledTextLabel.h
-c000000004EA9BC1700000000000008CE
-t1319746583
+c000000004EADDBAD00000000000008CE
+t1320016813
 s2254
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTStyledTextTableCell.h
-c000000004EA9BC170000000000000331
-t1319746583
+c000000004EADDBAD0000000000000331
+t1320016813
 s817
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTStyledTextTableItemCell.h
-c000000004EA9BC170000000000000341
-t1319746583
+c000000004EADDBAD0000000000000341
+t1320016813
 s833
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTab.h
-c000000004EA9BC170000000000000374
-t1319746583
+c000000004EADDBAD0000000000000374
+t1320016813
 s884
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTabBar.h
-c000000004EA9BC1700000000000005B2
-t1319746583
+c000000004EADDBAD00000000000005B2
+t1320016813
 s1458
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTabDelegate.h
-c000000004EA9BC1700000000000002FA
-t1319746583
+c000000004EADDBAD00000000000002FA
+t1320016813
 s762
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTabGrid.h
-c000000004EA9BC1700000000000002EC
-t1319746583
+c000000004EADDBAD00000000000002EC
+t1320016813
 s748
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTabItem.h
-c000000004EA9BC170000000000000409
-t1319746583
+c000000004EADDBAD0000000000000409
+t1320016813
 s1033
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTabStrip.h
-c000000004EA9BC170000000000000342
-t1319746583
+c000000004EADDBAD0000000000000342
+t1320016813
 s834
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableActivityItem.h
-c000000004EA9BC170000000000000319
-t1319746583
+c000000004EADDBAD0000000000000319
+t1320016813
 s793
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableActivityItemCell.h
-c000000004EA9BC170000000000000385
-t1319746583
+c000000004EADDBAD0000000000000385
+t1320016813
 s901
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableButton.h
-c000000004EA9BC1700000000000002B1
-t1319746583
+c000000004EADDBAD00000000000002B1
+t1320016813
 s689
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableCaptionItem.h
-c000000004EA9BC170000000000000410
-t1319746583
+c000000004EADDBAD0000000000000410
+t1320016813
 s1040
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableCaptionItemCell.h
-c000000004EA9BC1700000000000002FF
-t1319746583
+c000000004EADDBAD00000000000002FF
+t1320016813
 s767
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableControlCell.h
-c000000004EA9BC17000000000000039C
-t1319746583
+c000000004EADDBAD000000000000039C
+t1320016813
 s924
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableControlItem.h
-c000000004EA9BC170000000000000392
-t1319746583
+c000000004EADDBAD0000000000000392
+t1320016813
 s914
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableFlushViewCell.h
-c000000004EA9BC17000000000000038D
-t1319746583
+c000000004EADDBAD000000000000038D
+t1320016813
 s909
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableFooterInfiniteScrollView.h
-c000000004EA9BC18000000000000036B
-t1319746584
+c000000004EADDBAE000000000000036B
+t1320016814
 s875
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableGrayTextItem.h
-c000000004EA9BC1700000000000002B7
-t1319746583
+c000000004EADDBAD00000000000002B7
+t1320016813
 s695
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableHeaderDragRefreshView.h
-c000000004EA9BC1700000000000007C6
-t1319746583
+c000000004EADDBAD00000000000007C6
+t1320016813
 s1990
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableHeaderView.h
-c000000004EA9BC1700000000000002E2
-t1319746583
+c000000004EADDBAD00000000000002E2
+t1320016813
 s738
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableImageItem.h
-c000000004EA9BC170000000000000564
-t1319746583
+c000000004EADDBAD0000000000000564
+t1320016813
 s1380
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableImageItemCell.h
-c000000004EA9BC170000000000000338
-t1319746583
+c000000004EADDBAD0000000000000338
+t1320016813
 s824
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableItem.h
-c000000004EA9BC170000000000000302
-t1319746583
+c000000004EADDBAD0000000000000302
+t1320016813
 s770
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableLink.h
-c000000004EA9BC1700000000000002AF
-t1319746583
+c000000004EADDBAD00000000000002AF
+t1320016813
 s687
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableLinkedItem.h
-c000000004EA9BC170000000000000442
-t1319746583
+c000000004EADDBAD0000000000000442
+t1320016813
 s1090
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableLinkedItemCell.h
-c000000004EA9BC1700000000000002F5
-t1319746583
+c000000004EADDBAD00000000000002F5
+t1320016813
 s757
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableLongTextItem.h
-c000000004EA9BC1700000000000002B7
-t1319746583
+c000000004EADDBAD00000000000002B7
+t1320016813
 s695
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableMessageItem.h
-c000000004EA9BC170000000000000518
-t1319746583
+c000000004EADDBAD0000000000000518
+t1320016813
 s1304
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableMessageItemCell.h
-c000000004EA9BC17000000000000044A
-t1319746583
+c000000004EADDBAD000000000000044A
+t1320016813
 s1098
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableMoreButton.h
-c000000004EA9BC17000000000000036D
-t1319746583
+c000000004EADDBAD000000000000036D
+t1320016813
 s877
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableMoreButtonCell.h
-c000000004EA9BC1700000000000003D1
-t1319746583
+c000000004EADDBAD00000000000003D1
+t1320016813
 s977
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableRightCaptionItem.h
-c000000004EA9BC1700000000000002C1
-t1319746583
+c000000004EADDBAD00000000000002C1
+t1320016813
 s705
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableRightCaptionItemCell.h
-c000000004EA9BC170000000000000304
-t1319746583
+c000000004EADDBAD0000000000000304
+t1320016813
 s772
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableRightImageItem.h
-c000000004EA9BC1700000000000002BB
-t1319746583
+c000000004EADDBAD00000000000002BB
+t1320016813
 s699
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableStyledTextItem.h
-c000000004EA9BC170000000000000482
-t1319746583
+c000000004EADDBAD0000000000000482
+t1320016813
 s1154
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableSubtextItem.h
-c000000004EA9BC1700000000000002BC
-t1319746583
+c000000004EADDBAD00000000000002BC
+t1320016813
 s700
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableSubtextItemCell.h
-c000000004EA9BC1700000000000002FF
-t1319746583
+c000000004EADDBAD00000000000002FF
+t1320016813
 s767
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableSubtitleItem.h
-c000000004EA9BC1700000000000005F5
-t1319746583
+c000000004EADDBAD00000000000005F5
+t1320016813
 s1525
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableSubtitleItemCell.h
-c000000004EA9BC170000000000000385
-t1319746583
+c000000004EADDBAD0000000000000385
+t1320016813
 s901
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableSummaryItem.h
-c000000004EA9BC1700000000000002B6
-t1319746583
+c000000004EADDBAD00000000000002B6
+t1320016813
 s694
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableTextItem.h
-c000000004EA9BC170000000000000406
-t1319746583
+c000000004EADDBAD0000000000000406
+t1320016813
 s1030
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableTextItemCell.h
-c000000004EA9BC1700000000000002C3
-t1319746583
+c000000004EADDBAD00000000000002C3
+t1320016813
 s707
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableView.h
-c000000004EA9BC17000000000000070F
-t1319746583
+c000000004EADDBAD000000000000070F
+t1320016813
 s1807
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewCell.h
-c000000004EA9BC17000000000000076F
-t1319746583
+c000000004EADDBAD000000000000076F
+t1320016813
 s1903
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewController.h
-c000000004EA9BC170000000000001103
-t1319746583
+c000000004EADDBAD0000000000001103
+t1320016813
 s4355
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewDataSource.h
-c000000004EA9BC170000000000000B6C
-t1319746583
+c000000004EADDBAD0000000000000B6C
+t1320016813
 s2924
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewDelegate.h
-c000000004EA9BC170000000000000710
-t1319746583
+c000000004EADDBAD0000000000000710
+t1320016813
 s1808
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewDragRefreshDelegate.h
-c000000004EA9BC1700000000000006BA
-t1319746583
+c000000004EADDBAD00000000000006BA
+t1320016813
 s1722
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewGroupedVarHeightDelegate.h
-c000000004EA9BC17000000000000033F
-t1319746583
+c000000004EADDBAD000000000000033F
+t1320016813
 s831
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewItem.h
-c000000004EA9BC170000000000000371
-t1319746583
+c000000004EADDBAD0000000000000371
+t1320016813
 s881
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewNetworkEnabledDelegate.h
-c000000004EA9BC18000000000000067A
-t1319746584
+c000000004EADDBAE000000000000067A
+t1320016814
 s1658
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewPlainDelegate.h
-c000000004EA9BC17000000000000030D
-t1319746583
+c000000004EADDBAD000000000000030D
+t1320016813
 s781
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewPlainVarHeightDelegate.h
-c000000004EA9BC1700000000000002E5
-t1319746583
+c000000004EADDBAD00000000000002E5
+t1320016813
 s741
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTableViewVarHeightDelegate.h
-c000000004EA9BC17000000000000031D
-t1319746583
+c000000004EADDBAD000000000000031D
+t1320016813
 s797
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTextBarController.h
-c000000004EA9BC1700000000000008AC
-t1319746583
+c000000004EADDBAD00000000000008AC
+t1320016813
 s2220
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTextBarDelegate.h
-c000000004EA9BC17000000000000056B
-t1319746583
+c000000004EADDBAD000000000000056B
+t1320016813
 s1387
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTextEditor.h
-c000000004EA9BC170000000000000691
-t1319746583
+c000000004EADDBAD0000000000000691
+t1320016813
 s1681
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTTextEditorDelegate.h
-c000000004EA9BC170000000000000534
-t1319746583
+c000000004EADDBAD0000000000000534
+t1320016813
 s1332
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTThumbView.h
-c000000004EA9BC1700000000000002D3
-t1319746583
+c000000004EADDBAE00000000000002D3
+t1320016814
 s723
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTThumbsDataSource.h
-c000000004EA9BC170000000000000486
-t1319746583
+c000000004EADDBAD0000000000000486
+t1320016813
 s1158
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTThumbsTableViewCell.h
-c000000004EA9BC170000000000000521
-t1319746583
+c000000004EADDBAD0000000000000521
+t1320016813
 s1313
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTThumbsTableViewCellDelegate.h
-c000000004EA9BC17000000000000031B
-t1319746583
+c000000004EADDBAE000000000000031B
+t1320016814
 s795
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTThumbsViewController.h
-c000000004EA9BC170000000000000578
-t1319746583
+c000000004EADDBAE0000000000000578
+t1320016814
 s1400
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTThumbsViewControllerDelegate.h
-c000000004EA9BC170000000000000505
-t1319746583
+c000000004EADDBAE0000000000000505
+t1320016814
 s1285
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTView.h
-c000000004EA9BC17000000000000041F
-t1319746583
+c000000004EADDBAE000000000000041F
+t1320016814
 s1055
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTViewController.h
-c000000004EA9BC1700000000000006C8
-t1319746583
+c000000004EADDBAE00000000000006C8
+t1320016814
 s1736
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTWebController.h
-c000000004EA9BC170000000000000A70
-t1319746583
+c000000004EADDBAE0000000000000A70
+t1320016814
 s2672
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/TTYouTubeView.h
-c000000004EA9BC1700000000000003CF
-t1319746583
+c000000004EADDBAE00000000000003CF
+t1320016814
 s975
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UI/Three20UI.h
-c000000004EA9BC170000000000001577
-t1319746583
+c000000004EADDBAD0000000000001577
+t1320016813
 s5495
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UICommon/TTBaseViewController.h
-c000000004EA9BC0C0000000000000A48
-t1319746572
+c000000004EADDBA10000000000000A48
+t1320016801
 s2632
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UICommon/TTGlobalUICommon.h
-c000000004EA9BC0B00000000000017B0
-t1319746571
+c000000004EADDBA100000000000017B0
+t1320016801
 s6064
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UICommon/Three20UICommon.h
-c000000004EA9BC0B00000000000002CE
-t1319746571
+c000000004EADDBA100000000000002CE
+t1320016801
 s718
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTBaseNavigationController.h
-c000000004EA9BC10000000000000050F
-t1319746576
+c000000004EADDBA5000000000000050F
+t1320016805
 s1295
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTBaseNavigator.h
-c000000004EA9BC1000000000000021BF
-t1319746576
+c000000004EADDBA500000000000021BF
+t1320016805
 s8639
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTGlobalNavigatorMetrics.h
-c000000004EA9BC1000000000000006A1
-t1319746576
+c000000004EADDBA500000000000006A1
+t1320016805
 s1697
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTNavigationMode.h
-c000000004EA9BC100000000000000449
-t1319746576
+c000000004EADDBA50000000000000449
+t1320016805
 s1097
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTNavigatorDelegate.h
-c000000004EA9BC100000000000000657
-t1319746576
+c000000004EADDBA50000000000000657
+t1320016805
 s1623
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTNavigatorPersistenceMode.h
-c000000004EA9BC100000000000000348
-t1319746576
+c000000004EADDBA50000000000000348
+t1320016805
 s840
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTNavigatorRootContainer.h
-c000000004EA9BC10000000000000036D
-t1319746576
+c000000004EADDBA5000000000000036D
+t1320016805
 s877
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTNavigatorViewController.h
-c000000004EA9BC10000000000000036A
-t1319746576
+c000000004EADDBA5000000000000036A
+t1320016805
 s874
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTURLAction.h
-c000000004EA9BC100000000000000CBD
-t1319746576
+c000000004EADDBA50000000000000CBD
+t1320016805
 s3261
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTURLGeneratorPattern.h
-c000000004EA9BC100000000000000379
-t1319746576
+c000000004EADDBA50000000000000379
+t1320016805
 s889
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTURLMap.h
-c000000004EA9BC1000000000000016B4
-t1319746576
+c000000004EADDBA500000000000016B4
+t1320016805
 s5812
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTURLNavigatorPattern.h
-c000000004EA9BC100000000000000790
-t1319746576
+c000000004EADDBA50000000000000790
+t1320016805
 s1936
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTURLObject.h
-c000000004EA9BC100000000000000497
-t1319746576
+c000000004EADDBA50000000000000497
+t1320016805
 s1175
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/TTURLPattern.h
-c000000004EA9BC100000000000000511
-t1319746576
+c000000004EADDBA50000000000000511
+t1320016805
 s1297
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/../../three20/Build/Products/three20/Three20UINavigator/Three20UINavigator.h
-c000000004EA9BC100000000000000584
-t1319746576
+c000000004EADDBA50000000000000584
+t1320016805
 s1412
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Criteria.h
@@ -1326,9 +1326,9 @@ t1312990963
 s2214
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h
-c000000004EA84C01000000000000096D
-t1319652353
-s2413
+c000000004EB03A9E0000000000000994
+t1320172190
+s2452
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Paper.h
 c000000004EA6EE5400000000000000CA
@@ -1346,9 +1346,9 @@ t1319649023
 s1167
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ParseJSonNetworkData.m
-c000000004EA9B5B50000000000000C62
-t1319744949
-s3170
+c000000004EB035D00000000000000CB8
+t1320170960
+s3256
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Reviewer.h
 c000000004EA6ED6700000000000000D0
@@ -1563,12 +1563,12 @@ t1319748265
 s1132
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/LowLevelJsonAndNetworkTests.o
-t1319748262
+t1320168143
 s32256
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/MidLevelNetworkTests.o
-t1319748264
-s41444
+t1320168143
+s41492
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/NSObject+SBJson.o
 t1319748263
@@ -1579,8 +1579,8 @@ t1319748264
 s1124
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ParseJSonNetworkData.o
-t1319748264
-s18116
+t1320169948
+s18276
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/Reviewer.o
 t1319748264
@@ -1652,15 +1652,15 @@ t1319748262
 s98
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest
-t1319749275
+t1320169948
 s238
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest.dSYM
-t1319748265
+t1320169948
 s102
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests
-t1319748265
+t1320169948
 s172376
 
 N/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/Info.plist
@@ -1758,7 +1758,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4a4054a8015ab441^962261a8015ab441^---0#1#0#--18"Check dependencies36"17C6A977-D93F-4CE2-B84C-19D04CA4D0F9-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese10ae8657260b441^5341e9657260b441^---0#1#0#--18"Check dependencies36"CAEDF230-23C3-4D31-90D9-CB541496AF18-
 
 CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/Criteria.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Criteria.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s341441064.678240
@@ -1800,8 +1800,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/History.mb08fe228fa59b441^ad301d29fa59b441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/History.m0000000000000000^2576"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/History.o ConfDriver/History.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ConfDriverTests.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/History.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/History.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/History.o36"B4FA8F65-70B8-42FE-84C5-B7E6CC1CAB47-
 
 CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/LowLevelJsonAndNetworkTests.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s341441062.274552
-e341441063.002783
+s341860943.265292
+e341860943.784645
 r1
 xCompileC
 xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/LowLevelJsonAndNetworkTests.o
@@ -1820,11 +1820,11 @@ o/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAn
 o }
 o ^
 o3 warnings generated.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m7f684626fa59b441^b9c10027fa59b441^-709"/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m:207:18: warning: local declaration of 'response' hides instance variable [3]     NSLog(@"%i",[response statusCode]);                  ^/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m:208:15: warning: unused variable 'someString' [-Wunused-variable,12]     NSString *someString = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];               ^/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m:211:1: warning: control reaches end of non-void function [-Wreturn-type,3] } ^3 warnings generated.3(21%IDEActivityLogMessage2@55"Local declaration of 'response' hides instance variable-341441062#0#172#-1#-23%DVTTextDocumentLocation3@110"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m0000000000000000^206#17#206#17#18446744073709551615#0#14"Semantic Issue--2@28"Unused variable 'someString'-341441062#233#164#-1#-3@110"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m0000000000000000^207#14#207#14#18446744073709551615#0#19"Unused Entity Issue--2@40"Control reaches end of non-void function-341441062#511#170#-1#-3@110"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m0000000000000000^210#0#210#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@110"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m0000000000000000^2686"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/LowLevelJsonAndNetworkTests.o ConfDriverTests/LowLevelJsonAndNetworkTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ConfDriverTests.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/LowLevelJsonAndNetworkTests.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/LowLevelJsonAndNetworkTests.o36"BD5966C6-8A1F-4B07-9920-7D9883F7D550-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m1008444f6260b441^f4dec84f6260b441^-709"/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m:207:18: warning: local declaration of 'response' hides instance variable [3]     NSLog(@"%i",[response statusCode]);                  ^/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m:208:15: warning: unused variable 'someString' [-Wunused-variable,12]     NSString *someString = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];               ^/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m:211:1: warning: control reaches end of non-void function [-Wreturn-type,3] } ^3 warnings generated.3(21%IDEActivityLogMessage2@55"Local declaration of 'response' hides instance variable-341860943#0#172#-1#-23%DVTTextDocumentLocation3@110"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m0000000000000000^206#17#206#17#18446744073709551615#0#14"Semantic Issue--2@28"Unused variable 'someString'-341860943#233#164#-1#-3@110"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m0000000000000000^207#14#207#14#18446744073709551615#0#19"Unused Entity Issue--2@40"Control reaches end of non-void function-341860943#511#170#-1#-3@110"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m0000000000000000^210#0#210#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@110"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m0000000000000000^2686"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/LowLevelJsonAndNetworkTests.o ConfDriverTests/LowLevelJsonAndNetworkTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ConfDriverTests.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/LowLevelJsonAndNetworkTests.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/LowLevelJsonAndNetworkTests.o36"F6E9F47C-F077-4B24-9B97-B7D28111CAF3-
 
 CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/MidLevelNetworkTests.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s341441064.003938
-e341441064.315941
+s341865062.151817
+e341865063.523208
 r1
 xCompileC
 xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/MidLevelNetworkTests.o
@@ -1833,7 +1833,26 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.mf71f0128fa59b441^a0e25028fa59b441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m0000000000000000^2651"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/MidLevelNetworkTests.o ConfDriverTests/MidLevelNetworkTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ConfDriverTests.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/MidLevelNetworkTests.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/MidLevelNetworkTests.o36"0071E8E0-1778-4F6C-90EC-EEB487ED909B-
+oIn file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m:9:
+oIn file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h:12:
+o/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:25:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [3]
+o @property (nonatomic)  TTURLDataResponse *response;
+o ^
+o/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:25:1: warning: default property attribute 'assign' not appropriate for non-gc object [3]
+o/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:26:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [3]
+o @property (nonatomic) NSString* downloadUrl;
+o ^
+o/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:26:1: warning: default property attribute 'assign' not appropriate for non-gc object [3]
+o/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:27:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [3]
+o @property (nonatomic) NSString* params;
+o ^
+o/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:27:1: warning: default property attribute 'assign' not appropriate for non-gc object [3]
+o/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:28:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [3]
+o @property (nonatomic) TTURLRequest *request;
+o ^
+o/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:28:1: warning: default property attribute 'assign' not appropriate for non-gc object [3]
+o8 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.mc6fa26667260b441^d20086677260b441^-1807"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h:12:In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m:9:/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:25:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [3] @property (nonatomic)  TTURLDataResponse *response; ^/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:25:1: warning: default property attribute 'assign' not appropriate for non-gc object [3]/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:26:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [3] @property (nonatomic) NSString* downloadUrl; ^/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:26:1: warning: default property attribute 'assign' not appropriate for non-gc object [3]/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:27:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [3] @property (nonatomic) NSString* params; ^/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:27:1: warning: default property attribute 'assign' not appropriate for non-gc object [3]/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:28:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [3] @property (nonatomic) TTURLRequest *request; ^/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h:28:1: warning: default property attribute 'assign' not appropriate for non-gc object [3]8 warnings generated.8(21%IDEActivityLogMessage2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-341865063#227#174#3(36%IDEActivityLogHeaderInclusionMessage3@113"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h:12:-341865063#0#114#-0#-23%DVTTextDocumentLocation4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m:9:-341865063#114#113#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@157"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h-341865063#18446744073709551615#0#-0#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^24#0#24#0#18446744073709551615#0#---1#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^24#0#24#0#18446744073709551615#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-gc object-341865063#457#166#3(3@113"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h:12:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m:9:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@149"Default property attribute 'assign' not appropriate for non-gc object in /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h-341865063#18446744073709551615#0#-0#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^24#0#24#0#18446744073709551615#0#---1#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^24#0#24#0#18446744073709551615#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-341865063#623#174#3(3@113"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h:12:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m:9:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@157"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h-341865063#18446744073709551615#0#-0#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^25#0#25#0#18446744073709551615#0#---1#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^25#0#25#0#18446744073709551615#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-gc object-341865063#846#166#3(3@113"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h:12:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m:9:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@149"Default property attribute 'assign' not appropriate for non-gc object in /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h-341865063#18446744073709551615#0#-0#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^25#0#25#0#18446744073709551615#0#---1#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^25#0#25#0#18446744073709551615#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-341865063#1012#174#3(3@113"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h:12:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m:9:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@157"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h-341865063#18446744073709551615#0#-0#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^26#0#26#0#18446744073709551615#0#---1#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^26#0#26#0#18446744073709551615#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-gc object-341865063#1230#166#3(3@113"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h:12:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m:9:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@149"Default property attribute 'assign' not appropriate for non-gc object in /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h-341865063#18446744073709551615#0#-0#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^26#0#26#0#18446744073709551615#0#---1#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^26#0#26#0#18446744073709551615#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-341865063#1396#174#3(3@113"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h:12:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m:9:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@157"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h-341865063#18446744073709551615#0#-0#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^27#0#27#0#18446744073709551615#0#---1#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^27#0#27#0#18446744073709551615#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-gc object-341865063#1619#166#3(3@113"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h:12:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m:9:-341865063#18446744073709551615#0#-0#-4@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@149"Default property attribute 'assign' not appropriate for non-gc object in /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h-341865063#18446744073709551615#0#-0#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^27#0#27#0#18446744073709551615#0#---1#-4@92"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NetworkRequest.h0000000000000000^27#0#27#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation5@103"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m0000000000000000^2651"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/MidLevelNetworkTests.o ConfDriverTests/MidLevelNetworkTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ConfDriverTests.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/MidLevelNetworkTests.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/MidLevelNetworkTests.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/MidLevelNetworkTests.o36"1716D7B2-8AC5-404A-AC9D-926B40DAB282-
 
 CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/NSObject+SBJson.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s341441063.854923
@@ -1862,8 +1881,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Paper.m3e067b28fa59b441^2ecbab28fa59b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Paper.m0000000000000000^2566"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/Paper.o ConfDriver/Paper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ConfDriverTests.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/Paper.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Paper.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/Paper.o36"58BD2E02-E99F-4470-A7CD-1AB53E4EAD83-
 
 CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ParseJSonNetworkData.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ParseJSonNetworkData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s341441064.216712
-e341441064.377501
+s341865062.154738
+e341865063.084254
 r1
 xCompileC
 xbuild/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ParseJSonNetworkData.o
@@ -1872,7 +1891,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ParseJSonNetworkData.m85983728fa59b441^d3a46028fa59b441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ParseJSonNetworkData.m0000000000000000^2641"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ParseJSonNetworkData.o ConfDriver/ParseJSonNetworkData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ConfDriverTests.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ParseJSonNetworkData.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ParseJSonNetworkData.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ParseJSonNetworkData.o36"520BDBD0-A731-41B0-BFCF-32125486AB7F-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ParseJSonNetworkData.m28b927667260b441^439215677260b441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ParseJSonNetworkData.m0000000000000000^2641"CompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ParseJSonNetworkData.o ConfDriver/ParseJSonNetworkData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ConfDriverTests.hmap -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include -I/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 -I../../three20/Build/Products/three20 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources/i386 -I/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -include /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Prefix.pch -MMD -MT dependencies -MF /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ParseJSonNetworkData.d -c /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/ParseJSonNetworkData.m -o /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ParseJSonNetworkData.o36"85C1F782-E4DD-4D48-912B-E1E683335B4A-
 
 CCompileC build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/Reviewer.o /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver/Reviewer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s341441064.378765
@@ -2109,33 +2128,33 @@ xbuild/Debug-iphonesimulator/ConfDriverTests.octest/LowLevelJsonAndNetworkTests.
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/Debug-iphonesimulator/ConfDriverTests.octest/LowLevelJsonAndNetworkTests.hf5143929fa59b441^755b3a29fa59b441^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/LowLevelJsonAndNetworkTests.h00f8680ddcffdf42^653"CpResource ConfDriverTests/LowLevelJsonAndNetworkTests.h build/Debug-iphonesimulator/ConfDriverTests.octest/LowLevelJsonAndNetworkTests.h    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/LowLevelJsonAndNetworkTests.h /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest36"584A0CCE-8E54-4B2B-8F0F-6328B8B2248E-
 
 CGenerateDSYMFile /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest.dSYM /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests
-s341441065.191993
-e341441065.219129
+s341865063.593327
+e341865063.646700
 r1
 xGenerateDSYMFile
 x/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest.dSYM
 x/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Generating /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest.dSYMbb483129fa59b441^5d193829fa59b441^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest.dSYM00f8680ddcffdf42^583"GenerateDSYMFile build/Debug-iphonesimulator/ConfDriverTests.octest.dSYM build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests -o /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest.dSYM36"637081EC-F75E-45BB-BC39-1F4EF076062E-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Generating /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest.dSYM2bf697677260b441^d190a5677260b441^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest.dSYM/0000000000000000^583"GenerateDSYMFile build/Debug-iphonesimulator/ConfDriverTests.octest.dSYM build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests -o /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest.dSYM36"E0B1DF56-C4DE-40F2-B5EF-08AAAF2C5DD9-
 
 CLd /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests normal i386
-s341441065.116074
-e341441065.190284
+s341865063.525122
+e341865063.591339
 r1
 xLd
 x/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests
 xnormal
 xi386
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Link /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests1ccd1d29fa59b441^bfb83029fa59b441^---0#0#0#--1436"Ld build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests normal i386    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -bundle -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -filelist /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ConfDriverTests.LinkFileList -mmacosx-version-min=10.6 -bundle_loader /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver -Xlinker -objc_abi_version -Xlinker 2 -framework SenTestingKit -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests36"ED904363-60A0-4E3E-8987-00E5B8B52AC0-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Link /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests0a8386677260b441^867197677260b441^---0#0#0#--1436"Ld build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests normal i386    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -bundle -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Library/Frameworks -filelist /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ConfDriverTests.LinkFileList -mmacosx-version-min=10.6 -bundle_loader /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver -Xlinker -objc_abi_version -Xlinker 2 -framework SenTestingKit -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/ConfDriverTests36"993AE218-8598-43C7-A80E-199A76CCD058-
 
 CPhaseScriptExecution "Run Script" /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Script-4B122B2D136A4131000E9A6A.sh
-s341442984.626935
-e341442984.669075
+s341865063.654884
+e341865063.732011
 r1
 xPhaseScriptExecution
 xRun Script
 x/Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Script-4B122B2D136A4131000E9A6A.sh
 o/Developer/Tools/RunUnitTests:68: note: RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'cc63a1a8015ab441^0531b0a8015ab441^-122"/Developer/Tools/RunUnitTests:68: note: RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.1(21%IDEActivityLogMessage2@81"RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.-341442984#0#122#-0#-23%DVTTextDocumentLocation3@45"file://localhost/Developer/Tools/RunUnitTests0000000000000000^67#18446744073709551615#67#18446744073709551615#18446744073709551615#0#30"Shell Script Invocation Notice--0#0#0#--19425"PhaseScriptExecution "Run Script" build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Script-4B122B2D136A4131000E9A6A.sh    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER galic1987    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build    setenv BUILD_ROOT /Users/galic1987/Documents/confDriver/ConfDriver/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator    setenv BUNDLE_LOADER /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver    setenv CACHE_ROOT /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest    setenv CODE_SIGN_IDENTITY "iPhone Developer: Ivo Galic (RX98876NFM)"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH ConfDriverTests.octest    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH ConfDriverTests.octest/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/ConfDriver.dst    setenv DWARF_DSYM_FILE_NAME ConfDriverTests.octest.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ConfDriverTests.octest/Executables    setenv EXECUTABLE_FOLDER_PATH ConfDriverTests.octest    setenv EXECUTABLE_NAME ConfDriverTests    setenv EXECUTABLE_PATH ConfDriverTests.octest/ConfDriverTests    setenv FILE_LIST /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH ConfDriverTests.octest/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator\" /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/** /Developer/Library/Frameworks/**"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ConfDriverTests.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER NO    setenv GCC_PREFIX_HEADER ConfDriverTests/ConfDriverTests-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS DEBUG    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include\" /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 ../../three20/Build/Products/three20"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ConfDriverTests/ConfDriverTests-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ConfDriverTests.octest/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH ConfDriverTests.octest/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/ConfDriver.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER galic1987    setenv INSTALL_ROOT /tmp/ConfDriver.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ConfDriverTests.octest/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ConfDriverTests-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ConfDriverTests.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH ConfDriverTests.octest/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10K549    setenv MAC_OS_X_VERSION_ACTUAL 1068    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0608    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal    setenv OBJROOT /Users/galic1987/Documents/confDriver/ConfDriver/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework SenTestingKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ConfDriverTests.octest/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/PkgInfo    setenv PKGINFO_PATH ConfDriverTests.octest/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 9A334    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ConfDriverTests.octest/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ConfDriverTests.octest/PrivateHeaders    setenv PRODUCT_NAME ConfDriverTests    setenv PRODUCT_SETTINGS_PATH /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT ConfDriver    setenv PROJECT_DERIVED_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/DerivedSources    setenv PROJECT_DIR /Users/galic1987/Documents/confDriver/ConfDriver    setenv PROJECT_FILE_PATH /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver.xcodeproj    setenv PROJECT_NAME ConfDriver    setenv PROJECT_TEMP_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build    setenv PROVISIONING_PROFILE B19E27F1-8899-4D6B-97CC-E80E4F6D85E9    setenv PUBLIC_HEADERS_FOLDER_PATH ConfDriverTests.octest/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ConfDriverTests.octest/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk    setenv SDK_NAME iphonesimulator5.0    setenv SDK_PRODUCT_BUILD_VERSION 9A334    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH ConfDriverTests.octest/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ConfDriverTests.octest/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/galic1987/Documents/confDriver/ConfDriver    setenv SRCROOT /Users/galic1987/Documents/confDriver/ConfDriver    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/galic1987/Documents/confDriver/ConfDriver/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME ConfDriverTests    setenv TARGET_BUILD_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator    setenv TARGET_NAME ConfDriverTests    setenv TARGET_TEMP_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build    setenv TEMP_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build    setenv TEMP_FILES_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build    setenv TEMP_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build    setenv TEMP_ROOT /Users/galic1987/Documents/confDriver/ConfDriver/build    setenv TEST_AFTER_BUILD NO    setenv TEST_HOST /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ConfDriverTests.octest    setenv UNSTRIPPED_PRODUCT NO    setenv USER galic1987    setenv USER_APPS_DIR /Users/galic1987/Applications    setenv USER_LIBRARY_DIR /Users/galic1987/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ConfDriverTests.octest/version.plist    setenv VERSION_INFO_BUILDER galic1987    setenv VERSION_INFO_FILE ConfDriverTests_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:ConfDriverTests  PROJECT:ConfDriver-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME ConfDriverTests.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4C199    setenv XCODE_VERSION_ACTUAL 0420    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Script-4B122B2D136A4131000E9A6A.sh36"4F27E427-9097-408D-A1EE-0BF540861627-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'50a7a8677260b441^fe65bb677260b441^-122"/Developer/Tools/RunUnitTests:68: note: RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.1(21%IDEActivityLogMessage2@81"RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.-341865063#0#122#-0#-23%DVTTextDocumentLocation3@45"file://localhost/Developer/Tools/RunUnitTests0000000000000000^67#18446744073709551615#67#18446744073709551615#18446744073709551615#0#30"Shell Script Invocation Notice--0#0#0#--19425"PhaseScriptExecution "Run Script" build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Script-4B122B2D136A4131000E9A6A.sh    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER galic1987    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build    setenv BUILD_ROOT /Users/galic1987/Documents/confDriver/ConfDriver/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator    setenv BUNDLE_LOADER /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver    setenv CACHE_ROOT /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest    setenv CODE_SIGN_IDENTITY "iPhone Developer: Ivo Galic (RX98876NFM)"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH ConfDriverTests.octest    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH ConfDriverTests.octest/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/ConfDriver.dst    setenv DWARF_DSYM_FILE_NAME ConfDriverTests.octest.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ConfDriverTests.octest/Executables    setenv EXECUTABLE_FOLDER_PATH ConfDriverTests.octest    setenv EXECUTABLE_NAME ConfDriverTests    setenv EXECUTABLE_PATH ConfDriverTests.octest/ConfDriverTests    setenv FILE_LIST /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH ConfDriverTests.octest/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator\" /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/** /Developer/Library/Frameworks/**"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ConfDriverTests.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER NO    setenv GCC_PREFIX_HEADER ConfDriverTests/ConfDriverTests-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS DEBUG    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/include\" /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/../../three20 ../../three20/Build/Products/three20"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ConfDriverTests/ConfDriverTests-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ConfDriverTests.octest/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH ConfDriverTests.octest/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/ConfDriver.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER galic1987    setenv INSTALL_ROOT /tmp/ConfDriver.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ConfDriverTests.octest/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ConfDriverTests-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal/i386/ConfDriverTests.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH ConfDriverTests.octest/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10K549    setenv MAC_OS_X_VERSION_ACTUAL 1068    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0608    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Objects-normal    setenv OBJROOT /Users/galic1987/Documents/confDriver/ConfDriver/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework SenTestingKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ConfDriverTests.octest/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/PkgInfo    setenv PKGINFO_PATH ConfDriverTests.octest/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 9A334    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ConfDriverTests.octest/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ConfDriverTests.octest/PrivateHeaders    setenv PRODUCT_NAME ConfDriverTests    setenv PRODUCT_SETTINGS_PATH /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT ConfDriver    setenv PROJECT_DERIVED_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/DerivedSources    setenv PROJECT_DIR /Users/galic1987/Documents/confDriver/ConfDriver    setenv PROJECT_FILE_PATH /Users/galic1987/Documents/confDriver/ConfDriver/ConfDriver.xcodeproj    setenv PROJECT_NAME ConfDriver    setenv PROJECT_TEMP_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build    setenv PROVISIONING_PROFILE B19E27F1-8899-4D6B-97CC-E80E4F6D85E9    setenv PUBLIC_HEADERS_FOLDER_PATH ConfDriverTests.octest/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ConfDriverTests.octest/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk    setenv SDK_NAME iphonesimulator5.0    setenv SDK_PRODUCT_BUILD_VERSION 9A334    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH ConfDriverTests.octest/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/dO/dOboE3BRF9CdWF1Qat2zVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ConfDriverTests.octest/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/galic1987/Documents/confDriver/ConfDriver    setenv SRCROOT /Users/galic1987/Documents/confDriver/ConfDriver    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/galic1987/Documents/confDriver/ConfDriver/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME ConfDriverTests    setenv TARGET_BUILD_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator    setenv TARGET_NAME ConfDriverTests    setenv TARGET_TEMP_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build    setenv TEMP_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build    setenv TEMP_FILES_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build    setenv TEMP_FILE_DIR /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build    setenv TEMP_ROOT /Users/galic1987/Documents/confDriver/ConfDriver/build    setenv TEST_AFTER_BUILD NO    setenv TEST_HOST /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriver.app/ConfDriver    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ConfDriverTests.octest    setenv UNSTRIPPED_PRODUCT NO    setenv USER galic1987    setenv USER_APPS_DIR /Users/galic1987/Applications    setenv USER_LIBRARY_DIR /Users/galic1987/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ConfDriverTests.octest/version.plist    setenv VERSION_INFO_BUILDER galic1987    setenv VERSION_INFO_FILE ConfDriverTests_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:ConfDriverTests  PROJECT:ConfDriver-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME ConfDriverTests.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4C199    setenv XCODE_VERSION_ACTUAL 0420    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/galic1987/Documents/confDriver/ConfDriver/build/ConfDriver.build/Debug-iphonesimulator/ConfDriverTests.build/Script-4B122B2D136A4131000E9A6A.sh36"B8F54E87-2EBC-4E56-B56C-B491EAD0C00E-
 
 CProcessInfoPlistFile /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/Info.plist ConfDriverTests/ConfDriverTests-Info.plist
 s341441062.265858
@@ -2147,10 +2166,10 @@ xConfDriverTests/ConfDriverTests-Info.plist
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Process ConfDriverTests/ConfDriverTests-Info.plistd9234426fa59b441^6e694526fa59b441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/galic1987/Documents/confDriver/ConfDriver/ConfDriverTests/ConfDriverTests-Info.plist0000000000000000^561"ProcessInfoPlistFile build/Debug-iphonesimulator/ConfDriverTests.octest/Info.plist ConfDriverTests/ConfDriverTests-Info.plist    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ConfDriverTests/ConfDriverTests-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest/Info.plist36"D5D2094B-AAD3-4E0E-AF7A-2746F0FA83A9-
 
 CTouch /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest
-s341442075.166761
-e341442075.176220
+s341865063.735506
+e341865063.742952
 r1
 xTouch
 x/Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Touch /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest09c12a1bfe59b441^431e2d1bfe59b441^---0#0#0#--366"Touch build/Debug-iphonesimulator/ConfDriverTests.octest    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest36"5C45A3A6-C5F0-4F05-A18C-4DA74D6B3ACE-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Touch /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest295bbc677260b441^4c6fbf677260b441^---0#0#0#--366"Touch build/Debug-iphonesimulator/ConfDriverTests.octest    cd /Users/galic1987/Documents/confDriver/ConfDriver    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/galic1987/Documents/confDriver/ConfDriver/build/Debug-iphonesimulator/ConfDriverTests.octest36"6B3C9F6C-8BC7-4E99-9A87-653BDB79D25C-
 

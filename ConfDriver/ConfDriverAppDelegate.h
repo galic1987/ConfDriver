@@ -13,9 +13,10 @@
 #import "NetworkRequest.h"
 #import "ParseJSonNetworkData.h"
 #import "SingletonUser.h"
+#import "LogoutProtocol.h"
 
 
-@interface ConfDriverAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate,LoginProtocol,TTModelDelegate> {
+@interface ConfDriverAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate,LoginProtocol,TTModelDelegate,LogoutProtocol> {
     LauncherViewController *conferenceLauncher;
     NetworkRequest *req;
     UINavigationController *navigationController;
@@ -23,7 +24,6 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
 @property (nonatomic, retain) LauncherViewController *conferenceLauncher;
 @property (nonatomic, retain) NetworkRequest *req;
 @property (nonatomic, retain) UINavigationController *navigationController;

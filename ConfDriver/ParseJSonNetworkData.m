@@ -20,8 +20,10 @@
     NSDictionary * data = (NSDictionary *)[someString JSONValue];
     //[someString release];
     if ([@"OK" isEqualToString:[data objectForKey:@"message"]]) {
+        [someString release];
         return YES;
     }else{
+        [someString release];
         return NO;
     }
 }
@@ -34,6 +36,7 @@
     }else{
         [SingletonUser changeData:NO sessionId:@""];
     }
+    [someString release];
     return YES;
 }
 

@@ -60,6 +60,8 @@
 		4B6292871413B66C00F22398 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B62926F1413B66C00F22398 /* SBJsonStreamWriterState.m */; };
 		4B6292881413B66C00F22398 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B62926F1413B66C00F22398 /* SBJsonStreamWriterState.m */; };
 		4B783EE8145551560069F2FA /* MidLevelNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B783EE7145551560069F2FA /* MidLevelNetworkTests.m */; };
+		4B97F9B91460514F0023E4F3 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B97F9B71460514D0023E4F3 /* logout.png */; };
+		4B97F9BA1460514F0023E4F3 /* logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B97F9B81460514E0023E4F3 /* logout@2x.png */; };
 		4BA944601389EE1A00DA3B54 /* StartUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA9445E1389EE1A00DA3B54 /* StartUIViewController.m */; };
 		4BA94463138AC91100DA3B54 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA94462138AC91100DA3B54 /* LoginView.xib */; };
 		4BA94464138AC91100DA3B54 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA94462138AC91100DA3B54 /* LoginView.xib */; };
@@ -330,6 +332,9 @@
 		4B6292701413B66C00F22398 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
 		4B783EE6145551560069F2FA /* MidLevelNetworkTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidLevelNetworkTests.h; sourceTree = "<group>"; };
 		4B783EE7145551560069F2FA /* MidLevelNetworkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidLevelNetworkTests.m; sourceTree = "<group>"; };
+		4B97F9B71460514D0023E4F3 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		4B97F9B81460514E0023E4F3 /* logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout@2x.png"; sourceTree = "<group>"; };
+		4B97F9BB146056E90023E4F3 /* LogoutProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutProtocol.h; sourceTree = "<group>"; };
 		4BA9445D1389EE1A00DA3B54 /* StartUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUIViewController.h; sourceTree = "<group>"; };
 		4BA9445E1389EE1A00DA3B54 /* StartUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartUIViewController.m; sourceTree = "<group>"; };
 		4BA94462138AC91100DA3B54 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
@@ -630,6 +635,7 @@
 			isa = PBXGroup;
 			children = (
 				4BA94466138AD53C00DA3B54 /* LoginProtocol.h */,
+				4B97F9BB146056E90023E4F3 /* LogoutProtocol.h */,
 			);
 			name = DelegateProtocols;
 			sourceTree = "<group>";
@@ -675,6 +681,8 @@
 		4BD61DEA138BABF3005B10CA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4B97F9B71460514D0023E4F3 /* logout.png */,
+				4B97F9B81460514E0023E4F3 /* logout@2x.png */,
 				4BD61DFB138BBE9D005B10CA /* chair.png */,
 				4BD61DFC138BBE9D005B10CA /* chair@2x.png */,
 				4BD61DFD138BBE9D005B10CA /* chair2.png */,
@@ -1037,6 +1045,8 @@
 				4BD61E24138BBE9D005B10CA /* people@2x.png in Resources */,
 				4BD61E25138BBE9D005B10CA /* topics.png in Resources */,
 				4BD61E26138BBE9D005B10CA /* topics@2x.png in Resources */,
+				4B97F9B91460514F0023E4F3 /* logout.png in Resources */,
+				4B97F9BA1460514F0023E4F3 /* logout@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

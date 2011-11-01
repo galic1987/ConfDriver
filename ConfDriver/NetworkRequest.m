@@ -13,34 +13,39 @@
 
 @synthesize response;
 @synthesize request;
+@synthesize params;
 @synthesize downloadUrl = _downloadUrl;
 
 
 -(void)dealloc{
-    TT_RELEASE_SAFELY(response);
-    TT_RELEASE_SAFELY(_downloadUrl);
+    [request release];
+    [downloadUrl release];
+    [params release];
+    [response release];
     [super dealloc];
 }
 
 -(id)init{
-    self.response =  [[[TTURLDataResponse alloc] init] autorelease];
+    self.response =  [[TTURLDataResponse alloc] init];
     [super init];
     return self;
 }
 
 -(void)prepareRequest:(NSString*)url{
     request = [[TTURLRequest alloc] initWithURL:_downloadUrl delegate: self];
+    [_downloadUrl release]; // down with one
     [request setResponse:self.response];
     request.httpMethod = @"POST";
-    request.cachePolicy = TTURLRequestCachePolicyNoCache;
+    request.cachePolicy = TTURLRequestCachePolicyNone;
     request.contentType=@"application/x-www-form-urlencoded";
 }
 
 -(BOOL)login:(NSString *)user pass:(NSString *)pass sendSynchronously:(BOOL)sendSynchronously{
     _downloadUrl = [[NSString alloc]initWithFormat:@"%@%@",ServerURL,ServerLoginCall];
     [self prepareRequest:_downloadUrl];
-    NSString *params = [[NSString alloc]initWithFormat:@"name=%@&pass=%@",user,pass];
-    XLog(@"%@",params);
+    XLog("%i", [_downloadUrl retainCount]);
+    params = [[NSString alloc]initWithFormat:@"name=%@&pass=%@",user,pass];
+    XLog(@"Login params: %@",params);
     NSData* params2= [params dataUsingEncoding: NSASCIIStringEncoding];
     request.httpBody = params2;
     // sendSynchronously will be used mostly in tests 

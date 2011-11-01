@@ -10,6 +10,7 @@
 #import <Foundation/Foundation.h>
 #import "ConferenceLaucherViewController.h"
 #import "MainEventsController.h"
+#import "LogoutProtocol.h"
 // import the two three20 example classes
 //#import "StyleTestController.h"
 //#import "TabBarTestController.h"
@@ -18,5 +19,10 @@
 @interface LauncherViewController : TTViewController <TTLauncherViewDelegate> {
     TTLauncherView* launcherView; //add the TTLauncherView object
     TTNavigator* navigator; //add the url navigator object
+    id <LogoutProtocol>  logdelegate;
 }
+
+@property (assign)  id <LogoutProtocol>  logdelegate;
+
+
 @end

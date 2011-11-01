@@ -9,7 +9,7 @@
 #import "LauncherViewController.h"
 
 @implementation LauncherViewController
-
+@synthesize logdelegate;
 // standard initialization
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,6 +27,7 @@
     [super dealloc];
 }
 
+
 // load view will be loaded first time when we open the view
 - (void)loadView {
     [super loadView]; // send to super class
@@ -41,6 +42,11 @@
     navigator = [TTNavigator navigator]; // create the navigator
     navigator.supportsShakeToReload = YES; // if you shake the iphone , he is going to reaload the whole TTLauncherView
     navigator.persistenceMode = TTNavigatorPersistenceModeAll; // and he will save the data :)
+    
+ //  UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithTitle:@"Logout" style:UIBarButtonItemStyleDone target:self action:@selector(logout)];
+//    navigationController.navigationItem.rightBarButtonItem = segmentBarItem;
+    
+//    self.navigationItem.rightBarButtonItem = segmentBarItem;
     
     TTURLMap* map = navigator.URLMap; // mapper pointer for our navigation
     
@@ -97,6 +103,9 @@
                            [[[TTLauncherItem alloc] initWithTitle:@"Settings"
                                                             image:@"bundle://configuration.png"
                                                               URL:@"http://google.com" canDelete:NO] autorelease],
+                           [[[TTLauncherItem alloc] initWithTitle:@"Logout"
+                                                            image:@"bundle://logout.png"
+                                                              URL:@"http://logout" canDelete:NO] autorelease],
 
                            nil],
                           [NSArray arrayWithObjects:
@@ -140,7 +149,11 @@
 // if user selects one item , call the navigator with that url
 - (void)launcherView:(TTLauncherView*)launcher didSelectItem:(TTLauncherItem*)item {
     NSLog(@"Did select item %@",[item title]);
-    [navigator openURLAction:[TTURLAction actionWithURLPath:item.URL]];
+    if([[item title] isEqualToString:@"Logout"]){
+        [logdelegate logout:@"logout pressed" sender:self message:@""];
+    }else{
+        [navigator openURLAction:[TTURLAction actionWithURLPath:item.URL]];
+    }
 }
 
 // if user wants to edit the items, display done button

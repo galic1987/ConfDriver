@@ -15,5 +15,4 @@
 //session expired
 -(void)expired:(NSString *)cmd sender:(id)sender message:(NSString *)msg; 
 //logout
--(void)logout:(NSString *)cmd sender:(id)sender message:(NSString *)msg;
 @end
